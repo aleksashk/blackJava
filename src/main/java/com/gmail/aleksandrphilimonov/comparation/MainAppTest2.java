@@ -9,7 +9,7 @@ public class MainAppTest2 {
         List<Employee> list = new ArrayList<>();
         Employee emp1 = new Employee(100, "Richard", "Jonson", 15400);
         Employee emp2 = new Employee(15, "Brus", "Linch", 11200);
-        Employee emp3 = new Employee(123, "Nick", "Boris", 19600);
+        Employee emp3 = new Employee(123, "Brus", "Boris", 19600);
         list.add(emp1);
         list.add(emp2);
         list.add(emp3);
@@ -53,7 +53,11 @@ class Employee implements Comparable<Employee> {
 //        }
 //        return this.id - anotherEmp.id;
 //        return this.id.compareTo(anotherEmp.id);
-        return this.name.compareTo(anotherEmp.name);
+        int res = this.name.compareTo(anotherEmp.name);
+        if (res == 0) {
+            res = this.surname.compareTo(anotherEmp.surname);
+        }
+        return res;
     }
 
 }
