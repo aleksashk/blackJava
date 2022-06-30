@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="bed practise">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/MainAppTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/MainAppTest1.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="right practise">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/ParametrizedClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +39,7 @@
     "WebServerToolWindowFactoryState": "false"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.com.gmail.aleksandrphilimonov.generics.MainAppTest1">
+  <component name="RunManager" selected="Application.ParametrizedClass">
     <configuration name="MainAppTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.comparation.MainAppTest1" />
       <module name="blackJava" />
@@ -65,6 +66,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParametrizedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.generics.ParametrizedClass" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.gmail.aleksandrphilimonov.generics.MainAppTest1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.generics.MainAppTest1" />
       <module name="blackJava" />
@@ -80,6 +94,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParametrizedClass" />
         <item itemvalue="Application.com.gmail.aleksandrphilimonov.generics.MainAppTest1" />
         <item itemvalue="Application.MainAppTest2" />
         <item itemvalue="Application.MainAppTest1" />
@@ -94,7 +109,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1656590333259</updated>
-      <workItem from="1656590334680" duration="3801000" />
+      <workItem from="1656590334680" duration="4113000" />
     </task>
     <task id="LOCAL-00001" summary="comparing int, Integer, String">
       <created>1656591827767</created>
@@ -124,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656594099727</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="right practise">
+      <created>1656594291445</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656594291445</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +168,7 @@
     <MESSAGE value="comparing String with equals name and different surname" />
     <MESSAGE value="comparator" />
     <MESSAGE value="bed practise" />
-    <option name="LAST_COMMIT_MESSAGE" value="bed practise" />
+    <MESSAGE value="right practise" />
+    <option name="LAST_COMMIT_MESSAGE" value="right practise" />
   </component>
 </project>
