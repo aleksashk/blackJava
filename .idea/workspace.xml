@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="ArrayList Iterator">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/linkedList/LinkedListExample1.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="LinkedList example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/linkedList/ListIteratorExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/ArrayListEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/arrayList/ArrayListEx1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/ArrayListMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/arrayList/ArrayListMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/ArrayListMethods3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/arrayList/ArrayListMethods3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/ArrayListMethods4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/arrayList/ArrayListMethods4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/ArrayListMethods5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/arrayList/ArrayListMethods5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/IteratorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/arrayList/IteratorExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,26 +40,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkedListExample1">
-    <configuration name="LinkedListExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.collection.linkedList.LinkedListExample1" />
+  <component name="RunManager" selected="Application.ListIteratorExample">
+    <configuration name="ListIteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.collection.linkedList.ListIteratorExample" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gmail.aleksandrphilimonov.collection.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.gmail.aleksandrphilimonov.collection.arrayList.ArrayListMethods3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.collection.arrayList.ArrayListMethods3" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.collection.arrayList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,13 +93,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="com.gmail.aleksandrphilimonov.collection.linkedList.LinkedListExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.collection.linkedList.LinkedListExample1" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.collection.linkedList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedListExample1" />
+        <item itemvalue="Application.ListIteratorExample" />
+        <item itemvalue="Application.com.gmail.aleksandrphilimonov.collection.linkedList.LinkedListExample1" />
         <item itemvalue="Application.com.gmail.aleksandrphilimonov.collection.arrayList.IteratorExample" />
         <item itemvalue="Application.com.gmail.aleksandrphilimonov.collection.arrayList.ArrayListMethods5" />
         <item itemvalue="Application.com.gmail.aleksandrphilimonov.collection.arrayList.ArrayListMethods4" />
-        <item itemvalue="Application.com.gmail.aleksandrphilimonov.collection.arrayList.ArrayListMethods3" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +125,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656590333259</updated>
       <workItem from="1656590334680" duration="6245000" />
-      <workItem from="1656668992451" duration="10475000" />
+      <workItem from="1656668992451" duration="12671000" />
     </task>
     <task id="LOCAL-00001" summary="comparing int, Integer, String">
       <created>1656591827767</created>
@@ -224,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656703173436</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="LinkedList example">
+      <created>1656705419563</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1656705419563</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,6 +256,7 @@
     <MESSAGE value="ArrayList methods example 1" />
     <MESSAGE value="ArrayList methods example 2" />
     <MESSAGE value="ArrayList Iterator" />
-    <option name="LAST_COMMIT_MESSAGE" value="ArrayList Iterator" />
+    <MESSAGE value="LinkedList example" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedList example" />
   </component>
 </project>
