@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="generic methods parametrized methods">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/ArrayListEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/ArrayListEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/ArrayListMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/ArrayListMethods3.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="ArrayList methods example 1">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/ArrayListMethods4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/collection/ArrayListMethods5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,7 +41,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ArrayListMethods3">
+  <component name="RunManager" selected="Application.ArrayListMethods5">
     <configuration name="ArrayListEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.collection.ArrayListEx1" />
       <module name="blackJava" />
@@ -83,12 +81,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.generics.wildCard.MainApp" />
+    <configuration name="ArrayListMethods4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.collection.ArrayListMethods4" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.generics.wildCard.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainAppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.generics.igra.MainAppTest" />
+    <configuration name="ArrayListMethods5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.collection.ArrayListMethods5" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.generics.igra.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.collection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListMethods5" />
+        <item itemvalue="Application.ArrayListMethods4" />
         <item itemvalue="Application.ArrayListMethods3" />
         <item itemvalue="Application.ArrayListMethods" />
         <item itemvalue="Application.ArrayListEx1" />
-        <item itemvalue="Application.MainApp" />
-        <item itemvalue="Application.MainAppTest" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656590333259</updated>
       <workItem from="1656590334680" duration="6245000" />
-      <workItem from="1656668992451" duration="7377000" />
+      <workItem from="1656668992451" duration="8625000" />
     </task>
     <task id="LOCAL-00001" summary="comparing int, Integer, String">
       <created>1656591827767</created>
@@ -200,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656679006961</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="ArrayList methods example 1">
+      <created>1656701498843</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1656701498843</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +233,7 @@
     <MESSAGE value="generic methods" />
     <MESSAGE value="generic methods created game" />
     <MESSAGE value="generic methods parametrized methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic methods parametrized methods" />
+    <MESSAGE value="ArrayList methods example 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="ArrayList methods example 1" />
   </component>
 </project>
