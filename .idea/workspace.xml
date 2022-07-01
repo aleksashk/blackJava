@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="generic methods">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/igra/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/igra/MainAppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/igra/Participant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/igra/Schoolar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/igra/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/igra/Team.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="generic methods created game">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/subtyping/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/wildCard/MainApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/MainAppTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/firstLesson/MainAppTest1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/ParameterizedMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/firstLesson/ParameterizedMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/ParametrizedClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/firstLesson/ParametrizedClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/ParametrizedClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/generics/firstLesson/ParametrizedClass2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,20 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainAppTest">
+  <component name="RunManager" selected="Application.MainApp">
+    <configuration name="MainApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.generics.wildCard.MainApp" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.generics.wildCard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainAppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.generics.igra.MainAppTest" />
       <module name="blackJava" />
@@ -60,37 +73,11 @@
       </method>
     </configuration>
     <configuration name="ParameterizedMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.generics.ParameterizedMethod" />
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.generics.firstLesson.ParameterizedMethod" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.gmail.aleksandrphilimonov.generics.ParametrizedClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.generics.ParametrizedClass" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.generics.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.gmail.aleksandrphilimonov.generics.ParametrizedClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.generics.ParametrizedClass2" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.generics.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.generics.firstLesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,7 +90,20 @@
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.generics.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.generics.firstLesson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.gmail.aleksandrphilimonov.generics.firstLesson.ParametrizedClass2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.generics.firstLesson.ParametrizedClass2" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.generics.firstLesson.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainApp" />
         <item itemvalue="Application.MainAppTest" />
-        <item itemvalue="Application.ParameterizedMethod" />
-        <item itemvalue="Application.com.gmail.aleksandrphilimonov.generics.ParametrizedClass2" />
+        <item itemvalue="Application.com.gmail.aleksandrphilimonov.generics.firstLesson.ParameterizedMethod" />
+        <item itemvalue="Application.com.gmail.aleksandrphilimonov.generics.firstLesson.ParametrizedClass2" />
         <item itemvalue="Application.com.gmail.aleksandrphilimonov.generics.ParametrizesdClass2" />
-        <item itemvalue="Application.com.gmail.aleksandrphilimonov.generics.ParametrizedClass" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656590333259</updated>
       <workItem from="1656590334680" duration="6245000" />
-      <workItem from="1656668992451" duration="966000" />
+      <workItem from="1656668992451" duration="3065000" />
     </task>
     <task id="LOCAL-00001" summary="comparing int, Integer, String">
       <created>1656591827767</created>
@@ -188,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656595648542</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="generic methods created game">
+      <created>1656670225657</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656670225657</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +221,7 @@
     <MESSAGE value="generic Class" />
     <MESSAGE value="generic Class with different numbers of parameters" />
     <MESSAGE value="generic methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="generic methods" />
+    <MESSAGE value="generic methods created game" />
+    <option name="LAST_COMMIT_MESSAGE" value="generic methods created game" />
   </component>
 </project>

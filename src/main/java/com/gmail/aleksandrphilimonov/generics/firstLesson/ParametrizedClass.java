@@ -1,4 +1,4 @@
-package com.gmail.aleksandrphilimonov.generics;
+package com.gmail.aleksandrphilimonov.generics.firstLesson;
 
 public class ParametrizedClass {
     public static void main(String[] args) {

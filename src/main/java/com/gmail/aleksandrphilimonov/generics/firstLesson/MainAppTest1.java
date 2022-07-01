@@ -1,4 +1,4 @@
-package com.gmail.aleksandrphilimonov.generics;
+package com.gmail.aleksandrphilimonov.generics.firstLesson;
 
 import java.util.ArrayList;
 import java.util.List;
