@@ -68,13 +68,13 @@ class Student {
         return course == student.course && Objects.equals(name, student.name) && Objects.equals(surname, student.surname);
     }
 
-    //    @Override
-//    public int hashCode() {
-//        return Objects.hash(name, surname, course);
-//    }
-//
-    @Override
+        @Override
     public int hashCode() {
-        return name.length() * 7 + surname.length() * 11 + course * 53;
+        return Objects.hash(name, surname, course);
     }
+//
+//    @Override
+//    public int hashCode() {
+//        return name.length() * 7 + surname.length() * 11 + course * 53;
+//    }
 }
