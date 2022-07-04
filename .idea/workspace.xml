@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="HashSetExample TreeSetExample">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/queue/LinkedListExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/set/LinkedHashSetExample.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="LinkedListEx&#10;LinkedListExample">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/queue/PriorityQueueExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/queue/PriorityQueueExample2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,20 +41,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkedListExample">
-    <configuration name="HashTableEzample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.map.HashTableEzample" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.PriorityQueueExample2">
     <configuration name="LinkedHashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.set.LinkedHashSetExample" />
       <module name="blackJava" />
@@ -68,8 +55,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.queue.LinkedListExample" />
+    <configuration name="PriorityQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.queue.PriorityQueueExample" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PriorityQueueExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.queue.PriorityQueueExample2" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
@@ -94,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.gmail.aleksandrphilimonov.set.HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.set.HashSetExample" />
+    <configuration name="com.gmail.aleksandrphilimonov.queue.LinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.queue.LinkedListExample" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.set.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkedListExample" />
+        <item itemvalue="Application.PriorityQueueExample2" />
+        <item itemvalue="Application.PriorityQueueExample" />
+        <item itemvalue="Application.com.gmail.aleksandrphilimonov.queue.LinkedListExample" />
         <item itemvalue="Application.LinkedHashSetExample" />
         <item itemvalue="Application.TreeSetExample" />
-        <item itemvalue="Application.com.gmail.aleksandrphilimonov.set.HashSetExample" />
-        <item itemvalue="Application.HashTableEzample" />
       </list>
     </recent_temporary>
   </component>
@@ -311,7 +311,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656947968073</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="LinkedListEx&#10;LinkedListExample">
+      <created>1656948888271</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1656948888271</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -329,7 +336,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="comparing String with equals name and different surname" />
     <MESSAGE value="comparator" />
     <MESSAGE value="bed practise" />
     <MESSAGE value="right practise" />
@@ -354,6 +360,7 @@
     <MESSAGE value="TreeMapExample" />
     <MESSAGE value="LinkedHashMap" />
     <MESSAGE value="HashSetExample TreeSetExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashSetExample TreeSetExample" />
+    <MESSAGE value="LinkedListEx&#10;LinkedListExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedListEx&#10;LinkedListExample" />
   </component>
 </project>
