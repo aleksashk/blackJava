@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="static nested classes">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/nested_classes/inner_class/InnerClassExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="inner class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/nested_classes/local_inner_class/LocalInnerClassExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +45,7 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InnerClassExample">
+  <component name="RunManager" selected="Application.LocalInnerClassExample">
     <configuration name="DequeueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.dequeue.DequeueExample" />
       <module name="blackJava" />
@@ -73,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.queue.PriorityQueueExample" />
+    <configuration name="LocalInnerClassExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.nested_classes.local_inner_class.LocalInnerClassExample" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.queue.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.nested_classes.local_inner_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LocalInnerClassExample" />
         <item itemvalue="Application.InnerClassExample" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.DequeueExample" />
         <item itemvalue="Application.PriorityQueueExample2" />
-        <item itemvalue="Application.PriorityQueueExample" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +350,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656951176569</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="inner class">
+      <created>1656951951538</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1656951951539</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -369,7 +375,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="generic Class with different numbers of parameters" />
     <MESSAGE value="generic methods" />
     <MESSAGE value="generic methods created game" />
     <MESSAGE value="generic methods parametrized methods" />
@@ -394,6 +399,7 @@
     <MESSAGE value="DequeueExample" />
     <MESSAGE value="nested classes" />
     <MESSAGE value="static nested classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="static nested classes" />
+    <MESSAGE value="inner class" />
+    <option name="LAST_COMMIT_MESSAGE" value="inner class" />
   </component>
 </project>
