@@ -37,6 +37,7 @@ public class HashCodeExample {
         System.out.println(st4.hashCode());
         System.out.println(st5.hashCode());
 
+        Map<Integer, String> map2 = new HashMap<>(16, 0.75f);
     }
 }
 

@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="HashMapExample hashCode v2">
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="HashMapExample hashCode v3">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/map/HashCodeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/map/HashCodeExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,6 +126,7 @@
       <updated>1656590333259</updated>
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
+      <workItem from="1656934162567" duration="1299000" />
     </task>
     <task id="LOCAL-00001" summary="comparing int, Integer, String">
       <created>1656591827767</created>
@@ -273,7 +275,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656934113888</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="HashMapExample hashCode v3">
+      <created>1656934225728</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1656934225728</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +321,7 @@
     <MESSAGE value="HashMapExample1" />
     <MESSAGE value="HashMapExample hashCode" />
     <MESSAGE value="HashMapExample hashCode v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashMapExample hashCode v2" />
+    <MESSAGE value="HashMapExample hashCode v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashMapExample hashCode v3" />
   </component>
 </project>
