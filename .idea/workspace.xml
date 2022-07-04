@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="LinkedListEx&#10;PriorityQueueExample">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/dequeue/DequeueExample.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="nested classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/nested_classes/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -323,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656949363369</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="DequeueExample">
+      <created>1656950223616</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1656950223616</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -341,8 +349,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="bed practise" />
-    <MESSAGE value="right practise" />
     <MESSAGE value="generic Class" />
     <MESSAGE value="generic Class with different numbers of parameters" />
     <MESSAGE value="generic methods" />
@@ -366,6 +372,8 @@
     <MESSAGE value="HashSetExample TreeSetExample" />
     <MESSAGE value="LinkedListEx&#10;LinkedListExample" />
     <MESSAGE value="LinkedListEx&#10;PriorityQueueExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedListEx&#10;PriorityQueueExample" />
+    <MESSAGE value="DequeueExample" />
+    <MESSAGE value="nested classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="nested classes" />
   </component>
 </project>
