@@ -45,7 +45,7 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LocalInnerClassExample">
+  <component name="RunManager" selected="Application.LocalInner2">
     <configuration name="DequeueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.dequeue.DequeueExample" />
       <module name="blackJava" />
@@ -72,8 +72,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalInnerClassExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.nested_classes.local_inner_class.LocalInnerClassExample" />
+    <configuration name="LocalInner2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.nested_classes.local_inner_class.LocalInner2" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
@@ -85,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.queue.PriorityQueueExample2" />
+    <configuration name="LocalInnerClassExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.nested_classes.local_inner_class.LocalInnerClassExample" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.queue.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.nested_classes.local_inner_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LocalInner2" />
         <item itemvalue="Application.LocalInnerClassExample" />
         <item itemvalue="Application.InnerClassExample" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.DequeueExample" />
-        <item itemvalue="Application.PriorityQueueExample2" />
       </list>
     </recent_temporary>
   </component>
