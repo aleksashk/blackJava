@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="HashMapExample hashCode v3">
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="HashMapExample hashCode v4">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/map/TreeMapExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/map/HashCodeExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/map/HashCodeExample.java" afterDir="false" />
     </list>
@@ -40,7 +41,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.HashCodeExample">
+  <component name="RunManager" selected="Application.TreeMapExample">
     <configuration name="HashCodeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.map.HashCodeExample" />
       <module name="blackJava" />
@@ -93,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VectorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.vector.VectorExample" />
+    <configuration name="TreeMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.map.TreeMapExample" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.vector.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeMapExample" />
         <item itemvalue="Application.HashCodeExample" />
         <item itemvalue="Application.HashMapExample1" />
         <item itemvalue="Application.StackExample2" />
         <item itemvalue="Application.StackExample" />
-        <item itemvalue="Application.VectorExample" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +127,7 @@
       <updated>1656590333259</updated>
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
-      <workItem from="1656934162567" duration="1299000" />
+      <workItem from="1656934162567" duration="2873000" />
     </task>
     <task id="LOCAL-00001" summary="comparing int, Integer, String">
       <created>1656591827767</created>
@@ -282,7 +283,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656934225728</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="HashMapExample hashCode v4">
+      <created>1656936321352</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1656936321352</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,6 +330,7 @@
     <MESSAGE value="HashMapExample hashCode" />
     <MESSAGE value="HashMapExample hashCode v2" />
     <MESSAGE value="HashMapExample hashCode v3" />
-    <option name="LAST_COMMIT_MESSAGE" value="HashMapExample hashCode v3" />
+    <MESSAGE value="HashMapExample hashCode v4" />
+    <option name="LAST_COMMIT_MESSAGE" value="HashMapExample hashCode v4" />
   </component>
 </project>
