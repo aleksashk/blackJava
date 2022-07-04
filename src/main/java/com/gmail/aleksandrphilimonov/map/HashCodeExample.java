@@ -75,6 +75,6 @@ class Student {
 //
     @Override
     public int hashCode() {
-        return name.length() + surname.length() + course;
+        return name.length() * 7 + surname.length() * 11 + course * 53;
     }
 }
