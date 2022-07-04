@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="LinkedListEx&#10;LinkedListExample">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/queue/PriorityQueueExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/queue/PriorityQueueExample2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="LinkedListEx&#10;PriorityQueueExample">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/dequeue/DequeueExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +39,20 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.PriorityQueueExample2">
+  <component name="RunManager" selected="Application.DequeueExample">
+    <configuration name="DequeueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.dequeue.DequeueExample" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.dequeue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LinkedHashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.set.LinkedHashSetExample" />
       <module name="blackJava" />
@@ -81,19 +92,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.set.TreeSetExample" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.set.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.gmail.aleksandrphilimonov.queue.LinkedListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.queue.LinkedListExample" />
       <module name="blackJava" />
@@ -109,11 +107,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DequeueExample" />
         <item itemvalue="Application.PriorityQueueExample2" />
         <item itemvalue="Application.PriorityQueueExample" />
         <item itemvalue="Application.com.gmail.aleksandrphilimonov.queue.LinkedListExample" />
         <item itemvalue="Application.LinkedHashSetExample" />
-        <item itemvalue="Application.TreeSetExample" />
       </list>
     </recent_temporary>
   </component>
@@ -318,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656948888271</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="LinkedListEx&#10;PriorityQueueExample">
+      <created>1656949363369</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1656949363369</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -336,7 +341,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="comparator" />
     <MESSAGE value="bed practise" />
     <MESSAGE value="right practise" />
     <MESSAGE value="generic Class" />
@@ -361,6 +365,7 @@
     <MESSAGE value="LinkedHashMap" />
     <MESSAGE value="HashSetExample TreeSetExample" />
     <MESSAGE value="LinkedListEx&#10;LinkedListExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="LinkedListEx&#10;LinkedListExample" />
+    <MESSAGE value="LinkedListEx&#10;PriorityQueueExample" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedListEx&#10;PriorityQueueExample" />
   </component>
 </project>
