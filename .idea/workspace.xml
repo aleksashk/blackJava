@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="local inner class">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/nested_classes/local_inner_class/LocalInnerClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/nested_classes/local_inner_class/LocalInnerClassExample.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="local inner class version 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/nested_classes/anonimus_class/AnonimusClassExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +46,13 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LocalInner2">
-    <configuration name="DequeueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.dequeue.DequeueExample" />
+  <component name="RunManager" selected="Application.AnonimusClassExample">
+    <configuration name="AnonimusClassExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.nested_classes.anonimus_class.AnonimusClassExample" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.dequeue.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.nested_classes.anonimus_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonimusClassExample" />
         <item itemvalue="Application.LocalInner2" />
         <item itemvalue="Application.LocalInnerClassExample" />
         <item itemvalue="Application.InnerClassExample" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.DequeueExample" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +365,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656952298376</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="local inner class version 2">
+      <created>1656952572412</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1656952572412</updated>
+    </task>
+    <task id="LOCAL-00035" summary="local inner class version 3">
+      <created>1656952704386</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1656952704386</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -382,8 +397,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="generic methods created game" />
-    <MESSAGE value="generic methods parametrized methods" />
     <MESSAGE value="ArrayList methods example 1" />
     <MESSAGE value="ArrayList methods example 2" />
     <MESSAGE value="ArrayList Iterator" />
@@ -407,6 +420,8 @@
     <MESSAGE value="static nested classes" />
     <MESSAGE value="inner class" />
     <MESSAGE value="local inner class" />
-    <option name="LAST_COMMIT_MESSAGE" value="local inner class" />
+    <MESSAGE value="local inner class version 2" />
+    <MESSAGE value="local inner class version 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="local inner class version 3" />
   </component>
 </project>
