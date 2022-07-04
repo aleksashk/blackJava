@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="TreeMapExample">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/map/LinkedHashMapExample.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="LinkedHashMap">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/map/HashTableEzample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/set/HashSetExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.LinkedHashMapExample">
+  <component name="RunManager" selected="Application.HashSetExample">
     <configuration name="HashCodeExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.map.HashCodeExample" />
       <module name="blackJava" />
@@ -53,8 +55,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashMapExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.map.HashMapExample1" />
+    <configuration name="HashSetExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.set.HashSetExample" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.set.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashTableEzample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.map.HashTableEzample" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
@@ -79,19 +94,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stack.StackExample2" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.stack.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TreeMapExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.map.TreeMapExample" />
       <module name="blackJava" />
@@ -107,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashSetExample" />
+        <item itemvalue="Application.HashTableEzample" />
         <item itemvalue="Application.LinkedHashMapExample" />
         <item itemvalue="Application.TreeMapExample" />
         <item itemvalue="Application.HashCodeExample" />
-        <item itemvalue="Application.HashMapExample1" />
-        <item itemvalue="Application.StackExample2" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +127,7 @@
       <updated>1656590333259</updated>
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
-      <workItem from="1656934162567" duration="3174000" />
+      <workItem from="1656934162567" duration="4020000" />
     </task>
     <task id="LOCAL-00001" summary="comparing int, Integer, String">
       <created>1656591827767</created>
@@ -295,7 +297,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656937712092</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="LinkedHashMap">
+      <created>1656938054662</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1656938054662</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -337,6 +346,7 @@
     <MESSAGE value="HashMapExample hashCode v3" />
     <MESSAGE value="HashMapExample hashCode v4" />
     <MESSAGE value="TreeMapExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="TreeMapExample" />
+    <MESSAGE value="LinkedHashMap" />
+    <option name="LAST_COMMIT_MESSAGE" value="LinkedHashMap" />
   </component>
 </project>
