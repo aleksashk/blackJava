@@ -62,7 +62,13 @@ class Test {
 
         StudentInfo si = new StudentInfo();
         si.testStudents(students, new CheckOverGrade());
-
+        System.out.println("---------------------");
+        si.testStudents(students, new StudentChecks() {
+            @Override
+            public boolean check(Student s) {
+                return s.age < 30;
+            }
+        });
 //        System.out.println("-----------------------");
 //        si.printStudentsOverGrade(students, 8);
 //        System.out.println("-----------------------");
