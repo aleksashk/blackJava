@@ -70,7 +70,7 @@ class Test {
             }
         });
 
-        si.testStudents(students, (Student s)-> {return s.age < 30;});
+        si.testStudents(students, (s)-> s.age < 30);
 //        System.out.println("-----------------------");
 //        si.printStudentsOverGrade(students, 8);
 //        System.out.println("-----------------------");
