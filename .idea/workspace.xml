@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="inner class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/nested_classes/local_inner_class/LocalInnerClassExample.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="local inner class">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/nested_classes/local_inner_class/LocalInnerClassExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/nested_classes/local_inner_class/LocalInnerClassExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -357,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656951951539</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="local inner class">
+      <created>1656952298376</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1656952298376</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -375,7 +382,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="generic methods" />
     <MESSAGE value="generic methods created game" />
     <MESSAGE value="generic methods parametrized methods" />
     <MESSAGE value="ArrayList methods example 1" />
@@ -400,6 +406,7 @@
     <MESSAGE value="nested classes" />
     <MESSAGE value="static nested classes" />
     <MESSAGE value="inner class" />
-    <option name="LAST_COMMIT_MESSAGE" value="inner class" />
+    <MESSAGE value="local inner class" />
+    <option name="LAST_COMMIT_MESSAGE" value="local inner class" />
   </component>
 </project>
