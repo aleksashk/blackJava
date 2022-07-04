@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="Anonymous  Class Example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/lambda/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/lambda/StudentInfo.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="modernized lambda">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/lambda/Test2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/lambda/StudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/lambda/StudentInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,19 +74,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LocalInnerClassExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.nested_classes.local_inner_class.LocalInnerClassExample" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.nested_classes.local_inner_class.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudentInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.lambda.StudentInfo" />
       <module name="blackJava" />
@@ -113,13 +100,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.lambda.Test2" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.lambda.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Test2" />
         <item itemvalue="Application.StudentInfo" />
         <item itemvalue="Application.AnonimusClassExample" />
         <item itemvalue="Application.LocalInner2" />
-        <item itemvalue="Application.LocalInnerClassExample" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +387,35 @@
       <option name="project" value="LOCAL" />
       <updated>1656971028149</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="near the lambda">
+      <created>1656972168329</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1656972168329</updated>
+    </task>
+    <task id="LOCAL-00038" summary="anonymous class for the lambda">
+      <created>1656972273664</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1656972273664</updated>
+    </task>
+    <task id="LOCAL-00039" summary="first lambda">
+      <created>1656972400537</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1656972400537</updated>
+    </task>
+    <task id="LOCAL-00040" summary="modernized lambda">
+      <created>1656972463570</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1656972463570</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -405,10 +433,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="ArrayList methods example 2" />
-    <MESSAGE value="ArrayList Iterator" />
-    <MESSAGE value="LinkedList example" />
-    <MESSAGE value="LinkedList example with palindrome" />
     <MESSAGE value="Collections and Arrays -&gt; binarySearch" />
     <MESSAGE value="Vector" />
     <MESSAGE value="Stack" />
@@ -430,6 +454,10 @@
     <MESSAGE value="local inner class version 2" />
     <MESSAGE value="local inner class version 3" />
     <MESSAGE value="Anonymous  Class Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="Anonymous  Class Example" />
+    <MESSAGE value="near the lambda" />
+    <MESSAGE value="anonymous class for the lambda" />
+    <MESSAGE value="first lambda" />
+    <MESSAGE value="modernized lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="modernized lambda" />
   </component>
 </project>

@@ -58,19 +58,20 @@ class Test {
         students.add(st4);
         students.add(st5);
 
-        System.out.println(students);
+//        System.out.println(students);
 
         StudentInfo si = new StudentInfo();
-        si.testStudents(students, new CheckOverGrade());
-        System.out.println("---------------------");
-        si.testStudents(students, new StudentChecks() {
-            @Override
-            public boolean check(Student s) {
-                return s.age < 30;
-            }
-        });
+//        si.testStudents(students, new CheckOverGrade());
+//        System.out.println("---------------------");
+//        si.testStudents(students, new StudentChecks() {
+//            @Override
+//            public boolean check(Student s) {
+//                return s.age < 30;
+//            }
+//        });
+//
+//        si.testStudents(students, (s)-> s.age < 30);
 
-        si.testStudents(students, (s)-> s.age < 30);
 //        System.out.println("-----------------------");
 //        si.printStudentsOverGrade(students, 8);
 //        System.out.println("-----------------------");
@@ -78,6 +79,12 @@ class Test {
 //        System.out.println("-----------------------");
 //        si.printStudentsMixCondition(students, 20, 9.5, 'f');
 //        System.out.println("-----------------------");
+
+        si.testStudents(students, (s) -> s.avgGrade > 8);
+        System.out.println("-----------------------");
+        si.testStudents(students, (s) -> s.age < 30);
+        System.out.println("-----------------------");
+        si.testStudents(students, (s) -> s.age > 20 && s.avgGrade < 9.38 && s.sex == 'f');
     }
 }
 
