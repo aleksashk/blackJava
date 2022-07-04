@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="Collections and Arrays -&gt; binarySearch">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="Vector">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stack/StackExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.VectorExample">
+  <component name="RunManager" selected="Application.StackExample2">
     <configuration name="BinarySearchExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.collections.BinarySearchExample" />
       <module name="blackJava" />
@@ -66,6 +66,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StackExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stack.StackExample" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stack.StackExample2" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.stack.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="VectorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.vector.VectorExample" />
       <module name="blackJava" />
@@ -79,39 +105,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.gmail.aleksandrphilimonov.collection.arrayList.IteratorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.collection.arrayList.IteratorExample" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.collection.arrayList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="com.gmail.aleksandrphilimonov.collection.linkedList.LinkedListExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.collection.linkedList.LinkedListExample1" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.collection.linkedList.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StackExample2" />
+        <item itemvalue="Application.StackExample" />
         <item itemvalue="Application.VectorExample" />
         <item itemvalue="Application.BinarySearchExample" />
         <item itemvalue="Application.ListIteratorExample" />
-        <item itemvalue="Application.com.gmail.aleksandrphilimonov.collection.linkedList.LinkedListExample1" />
-        <item itemvalue="Application.com.gmail.aleksandrphilimonov.collection.arrayList.IteratorExample" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +124,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656590333259</updated>
       <workItem from="1656590334680" duration="6245000" />
-      <workItem from="1656668992451" duration="15210000" />
+      <workItem from="1656668992451" duration="15564000" />
     </task>
     <task id="LOCAL-00001" summary="comparing int, Integer, String">
       <created>1656591827767</created>
@@ -238,7 +238,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656709395609</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Vector">
+      <created>1656928218768</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656928218768</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -272,6 +279,7 @@
     <MESSAGE value="LinkedList example" />
     <MESSAGE value="LinkedList example with palindrome" />
     <MESSAGE value="Collections and Arrays -&gt; binarySearch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Collections and Arrays -&gt; binarySearch" />
+    <MESSAGE value="Vector" />
+    <option name="LAST_COMMIT_MESSAGE" value="Vector" />
   </component>
 </project>
