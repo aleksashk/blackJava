@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="lambda short notation">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/lambda/RemoveIf.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="lambda Predicate.test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/lambda/SupplierExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/lambda/StudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/lambda/StudentInfo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +46,13 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveIf">
-    <configuration name="AnonimusClassExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.nested_classes.anonimus_class.AnonimusClassExample" />
+  <component name="RunManager" selected="Application.SupplierExample">
+    <configuration name="SupplierExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.lambda.SupplierExample" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.nested_classes.anonimus_class.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.lambda.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,7 +60,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="com.gmail.aleksandrphilimonov.lambda.RemoveIf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.lambda.RemoveIf" />
       <module name="blackJava" />
       <extension name="coverage">
@@ -74,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="com.gmail.aleksandrphilimonov.lambda.StudentInfo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.lambda.StudentInfo" />
       <module name="blackJava" />
       <extension name="coverage">
@@ -87,7 +86,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="com.gmail.aleksandrphilimonov.lambda.Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.lambda.Test" />
       <module name="blackJava" />
       <extension name="coverage">
@@ -100,7 +99,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="com.gmail.aleksandrphilimonov.lambda.Test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.lambda.Test2" />
       <module name="blackJava" />
       <extension name="coverage">
@@ -115,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RemoveIf" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Test2" />
-        <item itemvalue="Application.StudentInfo" />
-        <item itemvalue="Application.AnonimusClassExample" />
+        <item itemvalue="Application.SupplierExample" />
+        <item itemvalue="Application.com.gmail.aleksandrphilimonov.lambda.RemoveIf" />
+        <item itemvalue="Application.com.gmail.aleksandrphilimonov.lambda.Test" />
+        <item itemvalue="Application.com.gmail.aleksandrphilimonov.lambda.Test2" />
+        <item itemvalue="Application.com.gmail.aleksandrphilimonov.lambda.StudentInfo" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +428,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657016076109</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="lambda Predicate.test">
+      <created>1657017221276</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1657017221276</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -447,7 +453,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Stack" />
     <MESSAGE value="HashMapExample1" />
     <MESSAGE value="HashMapExample hashCode" />
     <MESSAGE value="HashMapExample hashCode v2" />
@@ -472,6 +477,7 @@
     <MESSAGE value="modernized lambda" />
     <MESSAGE value="lambda" />
     <MESSAGE value="lambda short notation" />
-    <option name="LAST_COMMIT_MESSAGE" value="lambda short notation" />
+    <MESSAGE value="lambda Predicate.test" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda Predicate.test" />
   </component>
 </project>
