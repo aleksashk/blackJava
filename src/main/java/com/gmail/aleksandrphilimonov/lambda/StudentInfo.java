@@ -3,11 +3,12 @@ package com.gmail.aleksandrphilimonov.lambda;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.function.Predicate;
 
 public class StudentInfo {
-    void testStudents(ArrayList<Student> a1, StudentChecks sc) {
+    void testStudents(ArrayList<Student> a1, Predicate<Student> sc) {
         for (Student s : a1) {
-            if (sc.check(s)) {
+            if (sc.test(s)) {
                 System.out.println(s);
             }
         }
@@ -37,13 +38,13 @@ public class StudentInfo {
 //    }
 }
 
-class CheckOverGrade implements StudentChecks {
-
-    @Override
-    public boolean check(Student s) {
-        return s.avgGrade > 8;
-    }
-}
+//class CheckOverGrade implements StudentChecks {
+//
+//    @Override
+//    public boolean check(Student s) {
+//        return s.avgGrade > 8;
+//    }
+//}
 
 class Test {
     public static void main(String[] args) {
