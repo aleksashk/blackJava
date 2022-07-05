@@ -1,6 +1,8 @@
 package com.gmail.aleksandrphilimonov.lambda;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class StudentInfo {
     void testStudents(ArrayList<Student> a1, StudentChecks sc) {
@@ -61,6 +63,8 @@ class Test {
 //        System.out.println(students);
 
         StudentInfo si = new StudentInfo();
+        Collections.sort(students, Comparator.comparingInt(o -> o.course));
+        System.out.println(students);
 //        si.testStudents(students, new CheckOverGrade());
 //        System.out.println("---------------------");
 //        si.testStudents(students, new StudentChecks() {

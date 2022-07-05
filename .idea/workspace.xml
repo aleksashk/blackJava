@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="modernized lambda">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/lambda/Test2.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="lambda short notation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/lambda/StudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/lambda/StudentInfo.java" afterDir="false" />
     </list>
@@ -415,7 +414,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656972463570</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="lambda">
+      <created>1656972951361</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1656972951361</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,8 +439,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Collections and Arrays -&gt; binarySearch" />
-    <MESSAGE value="Vector" />
     <MESSAGE value="Stack" />
     <MESSAGE value="HashMapExample1" />
     <MESSAGE value="HashMapExample hashCode" />
@@ -458,6 +462,8 @@
     <MESSAGE value="anonymous class for the lambda" />
     <MESSAGE value="first lambda" />
     <MESSAGE value="modernized lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="modernized lambda" />
+    <MESSAGE value="lambda" />
+    <MESSAGE value="lambda short notation" />
+    <option name="LAST_COMMIT_MESSAGE" value="lambda short notation" />
   </component>
 </project>
