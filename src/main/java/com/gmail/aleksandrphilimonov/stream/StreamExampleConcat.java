@@ -10,7 +10,9 @@ public class StreamExampleConcat {
         Stream<Integer> s4 = Stream.concat(s1, s2);
 //        System.out.println(s4);
 //        System.out.println(s3.distinct().collect(Collectors.toList()));
-        System.out.println(s3.count());
+//        System.out.println(s3.count());
 //        System.out.println(s3.distinct().count());
+
+        System.out.println(s3.distinct().peek(System.out::println).count());
     }
 }
