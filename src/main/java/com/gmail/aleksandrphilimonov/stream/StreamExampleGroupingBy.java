@@ -1,9 +1,8 @@
 package com.gmail.aleksandrphilimonov.stream;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
-import java.util.Map;
-import java.util.stream.Collectors;
 
 public class StreamExampleGroupingBy {
     public static void main(String[] args) {
@@ -31,13 +30,22 @@ public class StreamExampleGroupingBy {
 //            System.out.println(e.getKey() + " " + e.getValue());
 //        }
 //
-        Map<Boolean, List<SimpleStudent>> map =
-                list.stream()
-                        .collect(Collectors.partitioningBy(el -> el.getAvgGrade() >= 7.0));
+//        Map<Boolean, List<SimpleStudent>> map =
+//                list.stream()
+//                        .collect(Collectors.partitioningBy(el -> el.getAvgGrade() >= 7.0));
+//
+//        for (Map.Entry<Boolean, List<SimpleStudent>> e : map.entrySet()) {
+//            System.out.println(e.getKey() + " " + e.getValue());
 
-        for (Map.Entry<Boolean, List<SimpleStudent>> e : map.entrySet()) {
-            System.out.println(e.getKey() + " " + e.getValue());
-        }
-
+        SimpleStudent first = list.stream()
+                .map(el -> {
+                    el.setName(el.getName().toUpperCase());
+                    return el;
+                })
+                .filter(el -> el.getSex() == 'f')
+                .sorted(Comparator.comparingInt(SimpleStudent::getAge))
+                .findFirst()
+                .get();
+        System.out.println(first);
     }
 }

@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream groupingBy()" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream partitioningBy()">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleGroupingBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleGroupingBy.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -130,14 +132,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="9501000" />
-    </task>
-    <task id="LOCAL-00010" summary="generic methods parametrized methods">
-      <created>1656679006961</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1656679006961</updated>
+      <workItem from="1657037484102" duration="9944000" />
     </task>
     <task id="LOCAL-00011" summary="ArrayList methods example 1">
       <created>1656701498843</created>
@@ -475,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657140853126</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="stream partitioningBy()">
+      <created>1657141036333</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1657141036333</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -493,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="local inner class version 2" />
     <MESSAGE value="local inner class version 3" />
     <MESSAGE value="Anonymous  Class Example" />
     <MESSAGE value="near the lambda" />
@@ -518,6 +519,7 @@
     <MESSAGE value="stream peek()" />
     <MESSAGE value="stream flatMap()" />
     <MESSAGE value="stream groupingBy()" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream groupingBy()" />
+    <MESSAGE value="stream partitioningBy()" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream partitioningBy()" />
   </component>
 </project>
