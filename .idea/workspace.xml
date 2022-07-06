@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream chaining">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleConcat.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream distinct">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleConcat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,21 +132,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="6778000" />
-    </task>
-    <task id="LOCAL-00004" summary="bed practise">
-      <created>1656594099727</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1656594099727</updated>
-    </task>
-    <task id="LOCAL-00005" summary="right practise">
-      <created>1656594291445</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1656594291445</updated>
+      <workItem from="1657037484102" duration="7087000" />
     </task>
     <task id="LOCAL-00006" summary="generic Class">
       <created>1656594743050</created>
@@ -477,7 +463,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657137473194</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="stream concat">
+      <created>1657137882784</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1657137882784</updated>
+    </task>
+    <task id="LOCAL-00054" summary="stream distinct">
+      <created>1657137984652</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1657137984652</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,8 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="LinkedListEx&#10;PriorityQueueExample" />
-    <MESSAGE value="DequeueExample" />
     <MESSAGE value="nested classes" />
     <MESSAGE value="static nested classes" />
     <MESSAGE value="inner class" />
@@ -520,6 +518,8 @@
     <MESSAGE value="stream reduce" />
     <MESSAGE value="stream sorted" />
     <MESSAGE value="stream chaining" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream chaining" />
+    <MESSAGE value="stream concat" />
+    <MESSAGE value="stream distinct" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream distinct" />
   </component>
 </project>

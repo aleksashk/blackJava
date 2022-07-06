@@ -1,6 +1,5 @@
 package com.gmail.aleksandrphilimonov.stream;
 
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class StreamExampleConcat {
@@ -10,6 +9,8 @@ public class StreamExampleConcat {
         Stream<Integer> s3 = Stream.of(100, 200, 100, 200, 100, 200, 300, 200, 300, 200, 200, 300, 200, 200, 300, 200, 300, 400);
         Stream<Integer> s4 = Stream.concat(s1, s2);
 //        System.out.println(s4);
-        System.out.println(s3.distinct().collect(Collectors.toList()));
+//        System.out.println(s3.distinct().collect(Collectors.toList()));
+        System.out.println(s3.count());
+//        System.out.println(s3.distinct().count());
     }
 }
