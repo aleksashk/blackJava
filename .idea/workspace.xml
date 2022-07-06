@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream findFirst()">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleMinMax.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream skip()">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleMinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleMinMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,28 +133,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="10282000" />
-    </task>
-    <task id="LOCAL-00012" summary="ArrayList methods example 2">
-      <created>1656702884773</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1656702884773</updated>
-    </task>
-    <task id="LOCAL-00013" summary="ArrayList Iterator">
-      <created>1656703173436</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1656703173436</updated>
-    </task>
-    <task id="LOCAL-00014" summary="LinkedList example">
-      <created>1656705419563</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1656705419563</updated>
+      <workItem from="1657037484102" duration="10910000" />
     </task>
     <task id="LOCAL-00015" summary="LinkedList example with palindrome">
       <created>1656707908001</created>
@@ -477,7 +457,28 @@
       <option name="project" value="LOCAL" />
       <updated>1657141496515</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="stream min() max()">
+      <created>1657141716368</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1657141716369</updated>
+    </task>
+    <task id="LOCAL-00062" summary="stream limit()">
+      <created>1657141846621</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1657141846621</updated>
+    </task>
+    <task id="LOCAL-00063" summary="stream skip()">
+      <created>1657141938036</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1657141938036</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,9 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Anonymous  Class Example" />
-    <MESSAGE value="near the lambda" />
-    <MESSAGE value="anonymous class for the lambda" />
     <MESSAGE value="first lambda" />
     <MESSAGE value="modernized lambda" />
     <MESSAGE value="lambda" />
@@ -520,6 +518,9 @@
     <MESSAGE value="stream groupingBy()" />
     <MESSAGE value="stream partitioningBy()" />
     <MESSAGE value="stream findFirst()" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream findFirst()" />
+    <MESSAGE value="stream min() max()" />
+    <MESSAGE value="stream limit()" />
+    <MESSAGE value="stream skip()" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream skip()" />
   </component>
 </project>

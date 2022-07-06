@@ -2,6 +2,7 @@ package com.gmail.aleksandrphilimonov.stream;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class StreamExampleMinMax {
     public static void main(String[] args) {
@@ -26,18 +27,55 @@ public class StreamExampleMinMax {
 //                .max(Comparator.comparingInt(SimpleStudent::getAge)).get();
 //        System.out.println(max);
 
-        list.stream()
-                .filter(e -> e.getAge() > 20)
-                .forEach(System.out::println);
-        System.out.println("---------------------------------");
-         list.stream()
-                .filter(e -> e.getAge() > 20)
-                .limit(2)
-                .forEach(System.out::println);
-        System.out.println("---------------------------------");
-        list.stream()
-                .filter(e -> e.getAge() > 20)
-                .skip(2)
-                .forEach(System.out::println);
+//        list.stream()
+//                .filter(e -> e.getAge() > 20)
+//                .forEach(System.out::println);
+//        System.out.println("---------------------------------");
+//         list.stream()
+//                .filter(e -> e.getAge() > 20)
+//                .limit(2)
+//                .forEach(System.out::println);
+//        System.out.println("---------------------------------");
+//        list.stream()
+//                .filter(e -> e.getAge() > 20)
+//                .skip(2)
+//                .forEach(System.out::println);
+
+        List<Integer> courses = list.stream()
+                .mapToInt(SimpleStudent::getCourse)
+                .boxed()
+                .collect(Collectors.toList());
+        System.out.println(courses);
+
+        List<Double> avgGrades = list.stream()
+                .mapToDouble(SimpleStudent::getAvgGrade)
+                .boxed()
+                .collect(Collectors.toList());
+        System.out.println(avgGrades);
+
+        int sum = list.stream()
+                .mapToInt(SimpleStudent::getCourse)
+                .sum();
+        System.out.println(sum);
+
+        double totalGrade = list.stream()
+                .mapToDouble(SimpleStudent::getAvgGrade)
+                .sum();
+        System.out.println(totalGrade);
+
+        double average = list.stream()
+                .mapToInt(SimpleStudent::getCourse)
+                .average().getAsDouble();
+        System.out.println(average);
+
+        int min = list.stream()
+                .mapToInt(SimpleStudent::getCourse)
+                .min().getAsInt();
+        System.out.println(min);
+
+        int max = list.stream()
+                .mapToInt(SimpleStudent::getCourse)
+                .max().getAsInt();
+        System.out.println(max);
     }
 }
