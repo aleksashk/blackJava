@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream mapExample">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExFilter.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream filter">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleForeach.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,19 +47,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.StreamExFilter">
-    <configuration name="ConsumerExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.lambda.ConsumerExample" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.lambda.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ForeachExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.lambda.ForeachExample" />
       <module name="blackJava" />
@@ -112,13 +99,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamExampleForeach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.StreamExampleForeach" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.StreamExFilter" />
+        <item itemvalue="Application.StreamExampleForeach" />
         <item itemvalue="Application.StreamExample1" />
         <item itemvalue="Application.FunctionExample" />
         <item itemvalue="Application.ForeachExample" />
-        <item itemvalue="Application.ConsumerExample" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +133,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="1817000" />
+      <workItem from="1657037484102" duration="2841000" />
     </task>
     <task id="LOCAL-00001" summary="comparing int, Integer, String">
       <created>1656591827767</created>
@@ -464,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657026019574</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="stream filter">
+      <created>1657131853553</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1657131853553</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -482,7 +489,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HashMapExample hashCode v4" />
     <MESSAGE value="TreeMapExample" />
     <MESSAGE value="LinkedHashMap" />
     <MESSAGE value="HashSetExample TreeSetExample" />
@@ -507,6 +513,7 @@
     <MESSAGE value="lambda Consumer.accept(T nt)" />
     <MESSAGE value="lambda Function.apply()" />
     <MESSAGE value="stream mapExample" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream mapExample" />
+    <MESSAGE value="stream filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream filter" />
   </component>
 </project>

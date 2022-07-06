@@ -3,6 +3,7 @@ package com.gmail.aleksandrphilimonov.stream;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class StreamExFilter {
     public static void main(String[] args) {
@@ -28,6 +29,7 @@ public class StreamExFilter {
         System.out.println(students);
         System.out.println(newList);
         System.out.println(newList2);
+        Stream.of(st1, st3, st4).forEach(System.out::println);
     }
 }
 
