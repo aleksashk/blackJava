@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream flatMap()">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleGroupingBy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleFlatMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleFlatMap.java" afterDir="false" />
-    </list>
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream groupingBy()" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,14 +130,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="9016000" />
-    </task>
-    <task id="LOCAL-00009" summary="generic methods created game">
-      <created>1656670225657</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1656670225657</updated>
+      <workItem from="1657037484102" duration="9501000" />
     </task>
     <task id="LOCAL-00010" summary="generic methods parametrized methods">
       <created>1656679006961</created>
@@ -479,7 +468,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657139084893</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="stream groupingBy()">
+      <created>1657140853126</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1657140853126</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +493,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="local inner class" />
     <MESSAGE value="local inner class version 2" />
     <MESSAGE value="local inner class version 3" />
     <MESSAGE value="Anonymous  Class Example" />
@@ -522,6 +517,7 @@
     <MESSAGE value="stream count()" />
     <MESSAGE value="stream peek()" />
     <MESSAGE value="stream flatMap()" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream flatMap()" />
+    <MESSAGE value="stream groupingBy()" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream groupingBy()" />
   </component>
 </project>

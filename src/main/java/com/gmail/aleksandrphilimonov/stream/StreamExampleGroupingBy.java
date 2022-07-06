@@ -20,14 +20,22 @@ public class StreamExampleGroupingBy {
         list.add(student4);
         list.add(student5);
 
-        Map<Integer, List<SimpleStudent>> map = list.stream()
-                .map(student -> {
-                    student.setName(student.getName().toUpperCase());
-                    return student;
-                })
-                .collect(Collectors.groupingBy(el -> el.getCourse()));
+//        Map<Integer, List<SimpleStudent>> map = list.stream()
+//                .map(student -> {
+//                    student.setName(student.getName().toUpperCase());
+//                    return student;
+//                })
+//                .collect(Collectors.groupingBy(el -> el.getCourse()));
+//
+//        for (Map.Entry<Integer, List<SimpleStudent>> e : map.entrySet()) {
+//            System.out.println(e.getKey() + " " + e.getValue());
+//        }
+//
+        Map<Boolean, List<SimpleStudent>> map =
+                list.stream()
+                        .collect(Collectors.partitioningBy(el -> el.getAvgGrade() >= 7.0));
 
-        for (Map.Entry<Integer, List<SimpleStudent>> e: map.entrySet()) {
+        for (Map.Entry<Boolean, List<SimpleStudent>> e : map.entrySet()) {
             System.out.println(e.getKey() + " " + e.getValue());
         }
 
