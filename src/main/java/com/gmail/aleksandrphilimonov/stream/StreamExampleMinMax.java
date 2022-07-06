@@ -28,7 +28,16 @@ public class StreamExampleMinMax {
 
         list.stream()
                 .filter(e -> e.getAge() > 20)
+                .forEach(System.out::println);
+        System.out.println("---------------------------------");
+         list.stream()
+                .filter(e -> e.getAge() > 20)
                 .limit(2)
+                .forEach(System.out::println);
+        System.out.println("---------------------------------");
+        list.stream()
+                .filter(e -> e.getAge() > 20)
+                .skip(2)
                 .forEach(System.out::println);
     }
 }
