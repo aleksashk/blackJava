@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream distinct">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleConcat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleConcat.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream peek()">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleFlatMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamExampleConcat">
+  <component name="RunManager" selected="Application.StreamExampleFlatMap">
     <configuration name="StreamExFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.StreamExFilter" />
       <module name="blackJava" />
@@ -85,8 +86,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExampleReduce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.StreamExampleReduce" />
+    <configuration name="StreamExampleFlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.StreamExampleFlatMap" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamExampleFlatMap" />
         <item itemvalue="Application.StreamExampleConcat" />
         <item itemvalue="Application.StreamExFilter" />
         <item itemvalue="Application.StreamExampleChaining" />
         <item itemvalue="Application.StreamExampleSorted" />
-        <item itemvalue="Application.StreamExampleReduce" />
       </list>
     </recent_temporary>
   </component>
@@ -132,21 +133,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="7087000" />
-    </task>
-    <task id="LOCAL-00006" summary="generic Class">
-      <created>1656594743050</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1656594743050</updated>
-    </task>
-    <task id="LOCAL-00007" summary="generic Class with different numbers of parameters">
-      <created>1656595189276</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1656595189276</updated>
+      <workItem from="1657037484102" duration="8000000" />
     </task>
     <task id="LOCAL-00008" summary="generic methods">
       <created>1656595648542</created>
@@ -477,7 +464,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657137984652</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="stream count()">
+      <created>1657138112274</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1657138112274</updated>
+    </task>
+    <task id="LOCAL-00056" summary="stream peek()">
+      <created>1657138187544</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1657138187544</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,8 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="nested classes" />
-    <MESSAGE value="static nested classes" />
     <MESSAGE value="inner class" />
     <MESSAGE value="local inner class" />
     <MESSAGE value="local inner class version 2" />
@@ -520,6 +519,8 @@
     <MESSAGE value="stream chaining" />
     <MESSAGE value="stream concat" />
     <MESSAGE value="stream distinct" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream distinct" />
+    <MESSAGE value="stream count()" />
+    <MESSAGE value="stream peek()" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream peek()" />
   </component>
 </project>
