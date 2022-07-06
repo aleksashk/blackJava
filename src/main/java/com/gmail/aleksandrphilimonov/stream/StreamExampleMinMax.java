@@ -1,7 +1,6 @@
 package com.gmail.aleksandrphilimonov.stream;
 
 import java.util.ArrayList;
-import java.util.Comparator;
 import java.util.List;
 
 public class StreamExampleMinMax {
@@ -19,12 +18,17 @@ public class StreamExampleMinMax {
         list.add(student4);
         list.add(student5);
 
-        SimpleStudent min = list.stream()
-                .min(Comparator.comparingInt(SimpleStudent::getAge)).get();
-        System.out.println(min);
+//        SimpleStudent min = list.stream()
+//                .min(Comparator.comparingInt(SimpleStudent::getAge)).get();
+//        System.out.println(min);
+//
+//        SimpleStudent max = list.stream()
+//                .max(Comparator.comparingInt(SimpleStudent::getAge)).get();
+//        System.out.println(max);
 
-        SimpleStudent max = list.stream()
-                .max(Comparator.comparingInt(SimpleStudent::getAge)).get();
-        System.out.println(max);
+        list.stream()
+                .filter(e -> e.getAge() > 20)
+                .limit(2)
+                .forEach(System.out::println);
     }
 }
