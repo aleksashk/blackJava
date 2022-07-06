@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream skip()">
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream mapToInt() mapToDouble() sum() average() min() max()">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/ParallelStreamExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleMinMax.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleMinMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,9 +46,9 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamExampleMinMax">
-    <configuration name="StreamExFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.StreamExFilter" />
+  <component name="RunManager" selected="Application.ParallelStreamExample">
+    <configuration name="ParallelStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.ParallelStreamExample" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
@@ -114,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ParallelStreamExample" />
         <item itemvalue="Application.StreamExampleMinMax" />
         <item itemvalue="Application.StreamExampleGroupingBy" />
         <item itemvalue="Application.StreamExampleFlatMap" />
         <item itemvalue="Application.StreamExampleConcat" />
-        <item itemvalue="Application.StreamExFilter" />
       </list>
     </recent_temporary>
   </component>
@@ -133,14 +133,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="10910000" />
-    </task>
-    <task id="LOCAL-00015" summary="LinkedList example with palindrome">
-      <created>1656707908001</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1656707908001</updated>
+      <workItem from="1657037484102" duration="11560000" />
     </task>
     <task id="LOCAL-00016" summary="Collections and Arrays -&gt; binarySearch">
       <created>1656709395609</created>
@@ -478,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657141938036</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="stream mapToInt() mapToDouble() sum() average() min() max()">
+      <created>1657142472890</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1657142472890</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="first lambda" />
     <MESSAGE value="modernized lambda" />
     <MESSAGE value="lambda" />
     <MESSAGE value="lambda short notation" />
@@ -521,6 +520,7 @@
     <MESSAGE value="stream min() max()" />
     <MESSAGE value="stream limit()" />
     <MESSAGE value="stream skip()" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream skip()" />
+    <MESSAGE value="stream mapToInt() mapToDouble() sum() average() min() max()" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream mapToInt() mapToDouble() sum() average() min() max()" />
   </component>
 </project>
