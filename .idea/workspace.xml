@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream partitioningBy()">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleGroupingBy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleGroupingBy.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream findFirst()">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/StreamExampleMinMax.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,22 +45,9 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StreamExampleGroupingBy">
+  <component name="RunManager" selected="Application.StreamExampleMinMax">
     <configuration name="StreamExFilter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.StreamExFilter" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamExampleChaining" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.StreamExampleChaining" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
@@ -111,13 +98,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamExampleMinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.StreamExampleMinMax" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamExampleMinMax" />
         <item itemvalue="Application.StreamExampleGroupingBy" />
         <item itemvalue="Application.StreamExampleFlatMap" />
         <item itemvalue="Application.StreamExampleConcat" />
         <item itemvalue="Application.StreamExFilter" />
-        <item itemvalue="Application.StreamExampleChaining" />
       </list>
     </recent_temporary>
   </component>
@@ -132,14 +132,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="9944000" />
-    </task>
-    <task id="LOCAL-00011" summary="ArrayList methods example 1">
-      <created>1656701498843</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1656701498843</updated>
+      <workItem from="1657037484102" duration="10282000" />
     </task>
     <task id="LOCAL-00012" summary="ArrayList methods example 2">
       <created>1656702884773</created>
@@ -477,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657141036333</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="stream findFirst()">
+      <created>1657141496515</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1657141496515</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="local inner class version 3" />
     <MESSAGE value="Anonymous  Class Example" />
     <MESSAGE value="near the lambda" />
     <MESSAGE value="anonymous class for the lambda" />
@@ -520,6 +519,7 @@
     <MESSAGE value="stream flatMap()" />
     <MESSAGE value="stream groupingBy()" />
     <MESSAGE value="stream partitioningBy()" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream partitioningBy()" />
+    <MESSAGE value="stream findFirst()" />
+    <option name="LAST_COMMIT_MESSAGE" value="stream findFirst()" />
   </component>
 </project>
