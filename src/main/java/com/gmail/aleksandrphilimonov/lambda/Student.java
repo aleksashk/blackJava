@@ -1,5 +1,7 @@
 package com.gmail.aleksandrphilimonov.lambda;
 
+import java.util.Objects;
+
 public class Student {
     String name;
     char sex;

@@ -3,8 +3,6 @@ package com.gmail.aleksandrphilimonov.stream;
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class StreamExFilter {
     public static void main(String[] args) {
@@ -21,22 +19,31 @@ public class StreamExFilter {
         students.add(st4);
         students.add(st5);
 
-        List<Student> list123 = students.stream()
-                .sorted(Comparator.comparing(Student::getName)
-                )
-                .collect(Collectors.toList());
-        System.out.println("students after sorted: " + list123);
+//        List<Student> list123 = students.stream()
+//                .sorted(Comparator.comparing(Student::getName)
+//                )
+//                .collect(Collectors.toList());
+//        System.out.println("students after sorted: " + list123);
 
-        List<Student> newList = students.stream()
-                .filter(s -> s.getAge() > 22 && s.getAvgGrade() < 7.2)
-                .collect(Collectors.toList());
+        students.stream()
+                .map(element -> {
+                    element.setName(element.getName().toUpperCase());
+                    return element;
+                })
+                .filter(element -> element.getSex() == 'f')
+                .sorted((Comparator.comparingInt(Student::getAge)))
+                .forEach(System.out::println);
 
-        List<Student> newList2 = students.stream()
-                .filter(student -> student.getCourse() >= 2).collect(Collectors.toList());
-        System.out.println(students);
-        System.out.println(newList);
-        System.out.println(newList2);
-        Stream.of(st1, st3, st4).forEach(System.out::println);
+//        List<Student> newList = students.stream()
+//                .filter(s -> s.getAge() > 22 && s.getAvgGrade() < 7.2)
+//                .collect(Collectors.toList());
+//
+//        List<Student> newList2 = students.stream()
+//                .filter(student -> student.getCourse() >= 2).collect(Collectors.toList());
+//        System.out.println(students);
+//        System.out.println(newList);
+//        System.out.println(newList2);
+//        Stream.of(st1, st3, st4).forEach(System.out::println);
     }
 }
 
