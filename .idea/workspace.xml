@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading run() examples">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample6.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading run() examples version2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,20 +46,7 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MulThExample6">
-    <configuration name="MulThExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample3" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MulThExample7">
     <configuration name="MulThExample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample4" />
       <module name="blackJava" />
@@ -98,6 +86,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MulThExample7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample7" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="com.gmail.aleksandrphilimonov.multithreading.MulThExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample2" />
       <module name="blackJava" />
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MulThExample7" />
         <item itemvalue="Application.MulThExample6" />
         <item itemvalue="Application.MulThExample5" />
         <item itemvalue="Application.MulThExample4" />
         <item itemvalue="Application.com.gmail.aleksandrphilimonov.multithreading.MulThExample2" />
-        <item itemvalue="Application.MulThExample3" />
       </list>
     </recent_temporary>
   </component>
@@ -132,14 +133,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="18482000" />
-    </task>
-    <task id="LOCAL-00019" summary="HashMapExample1">
-      <created>1656930065518</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1656930065518</updated>
+      <workItem from="1657037484102" duration="18802000" />
     </task>
     <task id="LOCAL-00020" summary="HashMapExample hashCode">
       <created>1656934049215</created>
@@ -477,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657381205336</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="multiThreading run() examples version2">
+      <created>1657381244171</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1657381244171</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lambda Predicate.test" />
     <MESSAGE value="lambda Supplier.get()" />
     <MESSAGE value="lambda Consumer.accept(T nt)" />
     <MESSAGE value="lambda Function.apply()" />
@@ -520,6 +520,7 @@
     <MESSAGE value="parallel stream" />
     <MESSAGE value="multiThreading examples" />
     <MESSAGE value="multiThreading run() examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiThreading run() examples" />
+    <MESSAGE value="multiThreading run() examples version2" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiThreading run() examples version2" />
   </component>
 </project>
