@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading join() &#10;NEW&#10;RUNNABLE&#10;TERMINATED">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample10.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading volatile">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample12.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MulThExample10">
+  <component name="RunManager" selected="Application.MulThExample12">
     <configuration name="MulThExample10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample10" />
       <module name="blackJava" />
@@ -59,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MulThExample6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample6" />
+    <configuration name="MulThExample11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample11" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MulThExample7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample7" />
+    <configuration name="MulThExample12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample12" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
@@ -113,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MulThExample12" />
+        <item itemvalue="Application.MulThExample11" />
         <item itemvalue="Application.MulThExample10" />
         <item itemvalue="Application.MulThExample9" />
         <item itemvalue="Application.MulThExample8" />
-        <item itemvalue="Application.MulThExample7" />
-        <item itemvalue="Application.MulThExample6" />
       </list>
     </recent_temporary>
   </component>
@@ -132,14 +134,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="22459000" />
-    </task>
-    <task id="LOCAL-00024" summary="TreeMapExample">
-      <created>1656937712092</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1656937712092</updated>
+      <workItem from="1657037484102" duration="23594000" />
     </task>
     <task id="LOCAL-00025" summary="LinkedHashMap">
       <created>1656938054662</created>
@@ -477,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657386457908</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="multiThreading volatile">
+      <created>1657390818918</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1657390818918</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stream filter" />
     <MESSAGE value="stream foreach" />
     <MESSAGE value="stream reduce" />
     <MESSAGE value="stream sorted" />
@@ -520,6 +521,7 @@
     <MESSAGE value="multiThreading join()" />
     <MESSAGE value="multiThreading join() with parameters" />
     <MESSAGE value="multiThreading join() &#10;NEW&#10;RUNNABLE&#10;TERMINATED" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiThreading join() &#10;NEW&#10;RUNNABLE&#10;TERMINATED" />
+    <MESSAGE value="multiThreading volatile" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiThreading volatile" />
   </component>
 </project>
