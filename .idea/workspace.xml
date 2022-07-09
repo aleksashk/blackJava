@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="parallel stream">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample4.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading examples">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +47,7 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MulThExample4">
+  <component name="RunManager" selected="Application.MulThExample6">
     <configuration name="MulThExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample3" />
       <module name="blackJava" />
@@ -76,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParallelStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.ParallelStreamExample" />
+    <configuration name="MulThExample5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample5" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.stream.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,8 +87,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.gmail.aleksandrphilimonov.multithreading.MulThExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample1" />
+    <configuration name="MulThExample6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample6" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
@@ -117,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MulThExample6" />
+        <item itemvalue="Application.MulThExample5" />
         <item itemvalue="Application.MulThExample4" />
         <item itemvalue="Application.com.gmail.aleksandrphilimonov.multithreading.MulThExample2" />
         <item itemvalue="Application.MulThExample3" />
-        <item itemvalue="Application.com.gmail.aleksandrphilimonov.multithreading.MulThExample1" />
-        <item itemvalue="Application.ParallelStreamExample" />
       </list>
     </recent_temporary>
   </component>
@@ -136,14 +134,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="17280000" />
-    </task>
-    <task id="LOCAL-00017" summary="Vector">
-      <created>1656928218768</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1656928218768</updated>
+      <workItem from="1657037484102" duration="17889000" />
     </task>
     <task id="LOCAL-00018" summary="Stack">
       <created>1656928717918</created>
@@ -481,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657143157176</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="multiThreading examples">
+      <created>1657380145680</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1657380145680</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -499,7 +497,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lambda" />
     <MESSAGE value="lambda short notation" />
     <MESSAGE value="lambda Predicate.test" />
     <MESSAGE value="lambda Supplier.get()" />
@@ -524,6 +521,7 @@
     <MESSAGE value="stream skip()" />
     <MESSAGE value="stream mapToInt() mapToDouble() sum() average() min() max()" />
     <MESSAGE value="parallel stream" />
-    <option name="LAST_COMMIT_MESSAGE" value="parallel stream" />
+    <MESSAGE value="multiThreading examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiThreading examples" />
   </component>
 </project>
