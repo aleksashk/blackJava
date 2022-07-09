@@ -4,8 +4,11 @@ public class MulThExample9 {
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Meth main begins");
         Thread thread = new Thread(new Worker());
+        System.out.println(thread.getState());
         thread.start();
-        thread.join(100);
+        System.out.println(thread.getState());
+        thread.join(10000);
+        System.out.println(thread.getState());
         System.out.println("Meth main ends");
     }
 }

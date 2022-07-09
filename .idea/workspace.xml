@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading thread.sleep()">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading join() with parameters">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample9.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,21 +132,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="20449000" />
-    </task>
-    <task id="LOCAL-00021" summary="HashMapExample hashCode v2">
-      <created>1656934113888</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1656934113888</updated>
-    </task>
-    <task id="LOCAL-00022" summary="HashMapExample hashCode v3">
-      <created>1656934225728</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1656934225728</updated>
+      <workItem from="1657037484102" duration="20925000" />
     </task>
     <task id="LOCAL-00023" summary="HashMapExample hashCode v4">
       <created>1656936321352</created>
@@ -478,7 +463,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657381670913</updated>
     </task>
-    <option name="localTasksCounter" value="70" />
+    <task id="LOCAL-00070" summary="multiThreading join()">
+      <created>1657385879949</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1657385879949</updated>
+    </task>
+    <task id="LOCAL-00071" summary="multiThreading join() with parameters">
+      <created>1657386180646</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1657386180647</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,8 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lambda Consumer.accept(T nt)" />
-    <MESSAGE value="lambda Function.apply()" />
     <MESSAGE value="stream mapExample" />
     <MESSAGE value="stream filter" />
     <MESSAGE value="stream foreach" />
@@ -521,6 +518,8 @@
     <MESSAGE value="multiThreading run() examples" />
     <MESSAGE value="multiThreading run() examples version2" />
     <MESSAGE value="multiThreading thread.sleep()" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiThreading thread.sleep()" />
+    <MESSAGE value="multiThreading join()" />
+    <MESSAGE value="multiThreading join() with parameters" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiThreading join() with parameters" />
   </component>
 </project>
