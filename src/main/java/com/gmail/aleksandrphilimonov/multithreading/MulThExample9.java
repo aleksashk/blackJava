@@ -1,0 +1,25 @@
+package com.gmail.aleksandrphilimonov.multithreading;
+
+public class MulThExample9 {
+    public static void main(String[] args) throws InterruptedException {
+        System.out.println("Meth main begins");
+        Thread thread = new Thread(new Worker());
+        thread.start();
+        thread.join(100);
+        System.out.println("Meth main ends");
+    }
+}
+
+class Worker implements Runnable {
+
+    @Override
+    public void run() {
+        System.out.println("work begins");
+        try {
+            Thread.sleep(2500);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+        System.out.println("work ends");
+    }
+}
