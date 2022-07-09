@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="stream mapToInt() mapToDouble() sum() average() min() max()">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/stream/ParallelStreamExample.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="parallel stream">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +49,33 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ParallelStreamExample">
+  <component name="RunManager" selected="Application.MulThExample4">
+    <configuration name="MulThExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample3" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MulThExample4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample4" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ParallelStreamExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.ParallelStreamExample" />
       <module name="blackJava" />
@@ -60,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExampleConcat" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.StreamExampleConcat" />
+    <configuration name="com.gmail.aleksandrphilimonov.multithreading.MulThExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample1" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.stream.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,38 +102,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StreamExampleFlatMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.StreamExampleFlatMap" />
+    <configuration name="com.gmail.aleksandrphilimonov.multithreading.MulThExample2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample2" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamExampleGroupingBy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.StreamExampleGroupingBy" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.stream.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StreamExampleMinMax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.stream.StreamExampleMinMax" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.stream.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MulThExample4" />
+        <item itemvalue="Application.com.gmail.aleksandrphilimonov.multithreading.MulThExample2" />
+        <item itemvalue="Application.MulThExample3" />
+        <item itemvalue="Application.com.gmail.aleksandrphilimonov.multithreading.MulThExample1" />
         <item itemvalue="Application.ParallelStreamExample" />
-        <item itemvalue="Application.StreamExampleMinMax" />
-        <item itemvalue="Application.StreamExampleGroupingBy" />
-        <item itemvalue="Application.StreamExampleFlatMap" />
-        <item itemvalue="Application.StreamExampleConcat" />
       </list>
     </recent_temporary>
   </component>
@@ -133,14 +136,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="11560000" />
-    </task>
-    <task id="LOCAL-00016" summary="Collections and Arrays -&gt; binarySearch">
-      <created>1656709395609</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1656709395609</updated>
+      <workItem from="1657037484102" duration="17280000" />
     </task>
     <task id="LOCAL-00017" summary="Vector">
       <created>1656928218768</created>
@@ -478,7 +474,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657142472890</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="parallel stream">
+      <created>1657143157176</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1657143157176</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +499,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="modernized lambda" />
     <MESSAGE value="lambda" />
     <MESSAGE value="lambda short notation" />
     <MESSAGE value="lambda Predicate.test" />
@@ -521,6 +523,7 @@
     <MESSAGE value="stream limit()" />
     <MESSAGE value="stream skip()" />
     <MESSAGE value="stream mapToInt() mapToDouble() sum() average() min() max()" />
-    <option name="LAST_COMMIT_MESSAGE" value="stream mapToInt() mapToDouble() sum() average() min() max()" />
+    <MESSAGE value="parallel stream" />
+    <option name="LAST_COMMIT_MESSAGE" value="parallel stream" />
   </component>
 </project>
