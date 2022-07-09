@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading examples">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading run() examples">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample6.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,14 +132,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="17889000" />
-    </task>
-    <task id="LOCAL-00018" summary="Stack">
-      <created>1656928717918</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1656928717918</updated>
+      <workItem from="1657037484102" duration="18482000" />
     </task>
     <task id="LOCAL-00019" summary="HashMapExample1">
       <created>1656930065518</created>
@@ -479,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657380145680</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="multiThreading run() examples">
+      <created>1657381205336</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1657381205336</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="lambda short notation" />
     <MESSAGE value="lambda Predicate.test" />
     <MESSAGE value="lambda Supplier.get()" />
     <MESSAGE value="lambda Consumer.accept(T nt)" />
@@ -522,6 +519,7 @@
     <MESSAGE value="stream mapToInt() mapToDouble() sum() average() min() max()" />
     <MESSAGE value="parallel stream" />
     <MESSAGE value="multiThreading examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiThreading examples" />
+    <MESSAGE value="multiThreading run() examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiThreading run() examples" />
   </component>
 </project>

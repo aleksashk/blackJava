@@ -8,7 +8,8 @@ public class MulThExample6 implements Runnable {
 
     public static void main(String[] args) {
         Thread thread = new Thread(new MulThExample6());
-        thread.start();
+//        thread.start();
+        thread.run();
         System.out.println("Method main. Thread name is: " + Thread.currentThread().getName());
     }
 }
