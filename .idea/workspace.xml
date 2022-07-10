@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading interface Lock and class ReentrantLock">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/Atm.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading interface Lock and class ReentrantLock method tryLock()">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/DaemonExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +45,22 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Atm">
+  <component name="RunManager" selected="Application.DaemonExample">
     <configuration name="Atm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.Atm" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DaemonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.DaemonExample" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
@@ -85,19 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.monitor_synchronized.SynchExample3" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.monitor_synchronized.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WaitNotifyEx" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.WaitNotifyEx" />
       <module name="blackJava" />
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DaemonExample" />
         <item itemvalue="Application.Atm" />
         <item itemvalue="Application.LockExample" />
         <item itemvalue="Application.DeadLockExample" />
         <item itemvalue="Application.WaitNotifyEx" />
-        <item itemvalue="Application.SynchExample3" />
       </list>
     </recent_temporary>
   </component>
@@ -132,21 +132,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="32267000" />
-    </task>
-    <task id="LOCAL-00039" summary="first lambda">
-      <created>1656972400537</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1656972400537</updated>
-    </task>
-    <task id="LOCAL-00040" summary="modernized lambda">
-      <created>1656972463570</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1656972463570</updated>
+      <workItem from="1657037484102" duration="33179000" />
     </task>
     <task id="LOCAL-00041" summary="lambda">
       <created>1656972951361</created>
@@ -477,7 +463,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657465887041</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="multiThreading interface Lock and class ReentrantLock second example">
+      <created>1657466283274</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1657466283274</updated>
+    </task>
+    <task id="LOCAL-00089" summary="multiThreading interface Lock and class ReentrantLock method tryLock()">
+      <created>1657466484681</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1657466484681</updated>
+    </task>
+    <option name="localTasksCounter" value="90" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,8 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stream limit()" />
-    <MESSAGE value="stream skip()" />
     <MESSAGE value="stream mapToInt() mapToDouble() sum() average() min() max()" />
     <MESSAGE value="parallel stream" />
     <MESSAGE value="multiThreading examples" />
@@ -520,6 +518,8 @@
     <MESSAGE value="multiThreading DeadLock" />
     <MESSAGE value="multiThreading DeadLock solution" />
     <MESSAGE value="multiThreading interface Lock and class ReentrantLock" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiThreading interface Lock and class ReentrantLock" />
+    <MESSAGE value="multiThreading interface Lock and class ReentrantLock second example" />
+    <MESSAGE value="multiThreading interface Lock and class ReentrantLock method tryLock()" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiThreading interface Lock and class ReentrantLock method tryLock()" />
   </component>
 </project>
