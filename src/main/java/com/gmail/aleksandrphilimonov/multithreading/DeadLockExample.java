@@ -29,12 +29,12 @@ class Thread10 extends Thread{
 }
 class Thread20 extends Thread{
     public void run(){
-        System.out.println("Thread20: попытка захватить lock2");
-        synchronized (DeadLockExample.lock2){
-            System.out.println("Thread20: Монитор объекта lock2 захвачен");
+        System.out.println("Thread20: попытка захватить lock1");
+        synchronized (DeadLockExample.lock1){
+            System.out.println("Thread20: Монитор объекта lock1 захвачен");
 
-            System.out.println("Thread20: попытка захватить lock1");
-            synchronized (DeadLockExample.lock1){
+            System.out.println("Thread20: попытка захватить lock2");
+            synchronized (DeadLockExample.lock2){
                 System.out.println("Thread20: Мониторы объектов lock1 и lock2 захвачены");
 
             }
