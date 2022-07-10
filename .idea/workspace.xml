@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading interrupted">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/InterruptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/InterruptionExample.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading interrupted version 2">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/thread_pool/ThrPoolEx1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +46,26 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InterruptionExample">
+  <component name="RunManager" selected="Application.ThrPoolEx1">
     <configuration name="InterruptionExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.InterruptionExample" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThrPoolEx1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.thread_pool.ThrPoolEx1" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.thread_pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,19 +99,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.gmail.aleksandrphilimonov.multithreading.DeadLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.DeadLockExample" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="com.gmail.aleksandrphilimonov.multithreading.LockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.LockExample" />
       <module name="blackJava" />
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThrPoolEx1" />
         <item itemvalue="Application.InterruptionExample" />
         <item itemvalue="Application.com.gmail.aleksandrphilimonov.multithreading.DaemonExample" />
         <item itemvalue="Application.com.gmail.aleksandrphilimonov.multithreading.Atm" />
         <item itemvalue="Application.com.gmail.aleksandrphilimonov.multithreading.LockExample" />
-        <item itemvalue="Application.com.gmail.aleksandrphilimonov.multithreading.DeadLockExample" />
       </list>
     </recent_temporary>
   </component>
@@ -132,14 +133,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="33937000" />
-    </task>
-    <task id="LOCAL-00043" summary="lambda Predicate.test">
-      <created>1657017221276</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1657017221276</updated>
+      <workItem from="1657037484102" duration="34938000" />
     </task>
     <task id="LOCAL-00044" summary="lambda Supplier.get()">
       <created>1657017784458</created>
@@ -477,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657467822804</updated>
     </task>
-    <option name="localTasksCounter" value="92" />
+    <task id="LOCAL-00092" summary="multiThreading interrupted version 2">
+      <created>1657468177189</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1657468177189</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="multiThreading examples" />
     <MESSAGE value="multiThreading run() examples" />
     <MESSAGE value="multiThreading run() examples version2" />
     <MESSAGE value="multiThreading thread.sleep()" />
@@ -520,6 +520,7 @@
     <MESSAGE value="multiThreading interface Lock and class ReentrantLock method tryLock()" />
     <MESSAGE value="multiThreading Daemon Thread" />
     <MESSAGE value="multiThreading interrupted" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiThreading interrupted" />
+    <MESSAGE value="multiThreading interrupted version 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiThreading interrupted version 2" />
   </component>
 </project>
