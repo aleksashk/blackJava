@@ -1,7 +1,7 @@
 package com.gmail.aleksandrphilimonov.multithreading.monitor_synchronized;
 
 public class SynchExample3 {
-    void mobileCall() {
+    synchronized void mobileCall() {
         System.out.println("mobile calls starts");
         try {
             Thread.sleep(3000);
@@ -11,7 +11,7 @@ public class SynchExample3 {
         System.out.println("mobile call ends");
     }
 
-    void viberCall() {
+    synchronized void viberCall() {
         System.out.println("viber calls starts");
         try {
             Thread.sleep(6000);
@@ -21,7 +21,7 @@ public class SynchExample3 {
         System.out.println("viber call ends");
     }
 
-    void watsAppCall() {
+    synchronized void watsAppCall() {
         System.out.println("watsApp calls starts");
         try {
             Thread.sleep(9000);
