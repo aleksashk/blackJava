@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading Daemon Thread">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/InterruptionExample.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading interrupted">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/InterruptionExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/InterruptionExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,14 +132,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="33605000" />
-    </task>
-    <task id="LOCAL-00042" summary="lambda short notation">
-      <created>1657016076109</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1657016076109</updated>
+      <workItem from="1657037484102" duration="33937000" />
     </task>
     <task id="LOCAL-00043" summary="lambda Predicate.test">
       <created>1657017221276</created>
@@ -477,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657467330227</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="multiThreading interrupted">
+      <created>1657467822804</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1657467822804</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="parallel stream" />
     <MESSAGE value="multiThreading examples" />
     <MESSAGE value="multiThreading run() examples" />
     <MESSAGE value="multiThreading run() examples version2" />
@@ -520,6 +519,7 @@
     <MESSAGE value="multiThreading interface Lock and class ReentrantLock second example" />
     <MESSAGE value="multiThreading interface Lock and class ReentrantLock method tryLock()" />
     <MESSAGE value="multiThreading Daemon Thread" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiThreading Daemon Thread" />
+    <MESSAGE value="multiThreading interrupted" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiThreading interrupted" />
   </component>
 </project>

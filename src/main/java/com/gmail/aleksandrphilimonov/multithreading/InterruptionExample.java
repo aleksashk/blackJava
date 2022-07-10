@@ -21,10 +21,17 @@ class InterruptedThread extends Thread {
         for (int i = 0; i < 1000_000_000; i++) {
             if (isInterrupted()) {
                 System.out.println(Thread.currentThread().getName() + " is wanted to interrupt");
+                System.out.println(sqrtSum);
                 return;
             }
             sqrtSum += Math.sqrt(i);
+            try {
+                sleep(100);
+            } catch (InterruptedException e) {
+                System.out.println(Thread.currentThread().getName() + " is sleeping and it will be interrupted");
+                System.out.println(sqrtSum);
+                return;
+            }
         }
-        System.out.println(sqrtSum);
     }
 }
