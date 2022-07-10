@@ -18,8 +18,12 @@ class Counter {
 }
 
 class MyRunnableImpl1 implements Runnable {
+    private void doSmth() {
+        System.out.println("Hello");
+    }
 
-    public void increment() {
+    private void increment() {
+        doSmth();
         synchronized (this) {
             Counter.count++;
             System.out.println(Counter.count);
