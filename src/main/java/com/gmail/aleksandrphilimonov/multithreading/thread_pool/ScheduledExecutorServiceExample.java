@@ -1,5 +1,6 @@
 package com.gmail.aleksandrphilimonov.multithreading.thread_pool;
 
+import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.TimeUnit;
@@ -22,6 +23,8 @@ public class ScheduledExecutorServiceExample {
 
         Thread.sleep(10000);
         service.shutdown();
+
+        ExecutorService executorService = Executors.newCachedThreadPool();
     }
 }
 
