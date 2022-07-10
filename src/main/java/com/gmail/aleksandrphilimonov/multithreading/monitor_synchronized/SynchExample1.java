@@ -19,9 +19,11 @@ class Counter {
 
 class MyRunnableImpl1 implements Runnable {
 
-    public synchronized void increment() {
-        Counter.count++;
-        System.out.println(Counter.count);
+    public void increment() {
+        synchronized (this) {
+            Counter.count++;
+            System.out.println(Counter.count);
+        }
     }
 
     @Override
