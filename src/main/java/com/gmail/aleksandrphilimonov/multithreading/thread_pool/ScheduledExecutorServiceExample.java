@@ -11,7 +11,11 @@ public class ScheduledExecutorServiceExample {
 //            service.execute(new RunnableEmpl300());
 //        }
 
-        service.schedule(new RunnableEmpl300(), 3, TimeUnit.SECONDS);
+//        service.schedule(new RunnableEmpl300(), 3, TimeUnit.SECONDS);
+//        service.shutdown();
+
+        service.scheduleAtFixedRate(new RunnableEmpl300(),3,1,TimeUnit.SECONDS);
+        Thread.sleep(10000);
         service.shutdown();
     }
 }
@@ -21,11 +25,11 @@ class RunnableEmpl300 implements Runnable {
     @Override
     public void run() {
         System.out.println(Thread.currentThread().getName() + " starts");
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+//        try {
+//            Thread.sleep(5000);
+//        } catch (InterruptedException e) {
+//            throw new RuntimeException(e);
+//        }
         System.out.println(Thread.currentThread().getName() + " ends");
     }
 }
