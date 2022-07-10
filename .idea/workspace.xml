@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading synchronized block and lock example">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/WaitNotifyEx.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading wait and notify example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/DeadLockExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,20 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WaitNotifyEx">
+  <component name="RunManager" selected="Application.DeadLockExample">
+    <configuration name="DeadLockExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.DeadLockExample" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SynchExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.monitor_synchronized.SynchExample1" />
       <module name="blackJava" />
@@ -98,26 +111,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.gmail.aleksandrphilimonov.multithreading.MulThExample12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample12" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeadLockExample" />
         <item itemvalue="Application.WaitNotifyEx" />
         <item itemvalue="Application.SynchExample3" />
         <item itemvalue="Application.SynchExample1" />
         <item itemvalue="Application.com.gmail.aleksandrphilimonov.multithreading.MulThExample11" />
-        <item itemvalue="Application.com.gmail.aleksandrphilimonov.multithreading.MulThExample12" />
       </list>
     </recent_temporary>
   </component>
@@ -132,14 +132,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="29828000" />
-    </task>
-    <task id="LOCAL-00035" summary="local inner class version 3">
-      <created>1656952704386</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1656952704386</updated>
+      <workItem from="1657037484102" duration="30985000" />
     </task>
     <task id="LOCAL-00036" summary="Anonymous  Class Example">
       <created>1656971028149</created>
@@ -477,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657451222158</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="multiThreading wait and notify example">
+      <created>1657456707258</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1657456707258</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stream groupingBy()" />
     <MESSAGE value="stream partitioningBy()" />
     <MESSAGE value="stream findFirst()" />
     <MESSAGE value="stream min() max()" />
@@ -520,6 +519,7 @@
     <MESSAGE value="multiThreading synchronized block example 4" />
     <MESSAGE value="multiThreading synchronized block example 4.1" />
     <MESSAGE value="multiThreading synchronized block and lock example" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiThreading synchronized block and lock example" />
+    <MESSAGE value="multiThreading wait and notify example" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiThreading wait and notify example" />
   </component>
 </project>
