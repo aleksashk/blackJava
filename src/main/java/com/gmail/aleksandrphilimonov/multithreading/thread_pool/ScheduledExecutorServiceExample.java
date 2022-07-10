@@ -14,7 +14,12 @@ public class ScheduledExecutorServiceExample {
 //        service.schedule(new RunnableEmpl300(), 3, TimeUnit.SECONDS);
 //        service.shutdown();
 
-        service.scheduleAtFixedRate(new RunnableEmpl300(),3,1,TimeUnit.SECONDS);
+//        service.scheduleAtFixedRate(new RunnableEmpl300(),3,1,TimeUnit.SECONDS);
+//        Thread.sleep(10000);
+//        service.shutdown();
+
+        service.scheduleWithFixedDelay(new RunnableEmpl300(), 3, 1, TimeUnit.SECONDS);
+
         Thread.sleep(10000);
         service.shutdown();
     }

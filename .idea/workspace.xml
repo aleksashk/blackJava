@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading newSingleThreadExecutor">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/thread_pool/ScheduledExecutorServiceExample.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading newScheduledExecutorService scheduleAtFixedRate">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/thread_pool/ScheduledExecutorServiceExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/thread_pool/ScheduledExecutorServiceExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,21 +132,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="35494000" />
-    </task>
-    <task id="LOCAL-00046" summary="lambda Function.apply()">
-      <created>1657020599468</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1657020599468</updated>
-    </task>
-    <task id="LOCAL-00047" summary="stream mapExample">
-      <created>1657026019574</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1657026019574</updated>
+      <workItem from="1657037484102" duration="35946000" />
     </task>
     <task id="LOCAL-00048" summary="stream filter">
       <created>1657131853553</created>
@@ -477,7 +463,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657469258369</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="multiThreading newScheduledExecutorService">
+      <created>1657469629304</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1657469629304</updated>
+    </task>
+    <task id="LOCAL-00096" summary="multiThreading newScheduledExecutorService scheduleAtFixedRate">
+      <created>1657469883375</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1657469883375</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,8 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="multiThreading thread.sleep()" />
-    <MESSAGE value="multiThreading join()" />
     <MESSAGE value="multiThreading join() with parameters" />
     <MESSAGE value="multiThreading join() &#10;NEW&#10;RUNNABLE&#10;TERMINATED" />
     <MESSAGE value="multiThreading volatile" />
@@ -520,6 +518,8 @@
     <MESSAGE value="multiThreading interrupted version 2" />
     <MESSAGE value="multiThreading FixedThreadPool" />
     <MESSAGE value="multiThreading newSingleThreadExecutor" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiThreading newSingleThreadExecutor" />
+    <MESSAGE value="multiThreading newScheduledExecutorService" />
+    <MESSAGE value="multiThreading newScheduledExecutorService scheduleAtFixedRate" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiThreading newScheduledExecutorService scheduleAtFixedRate" />
   </component>
 </project>
