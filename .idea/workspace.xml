@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading synchronized and data race">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample12.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/MulThExample12.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading synchronized block example 3">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/monitor_synchronized/SynchExample3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MulThExample11">
+  <component name="RunManager" selected="Application.SynchExample3">
     <configuration name="MulThExample10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample10" />
       <module name="blackJava" />
@@ -85,12 +86,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MulThExample8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample8" />
+    <configuration name="SynchExample1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.monitor_synchronized.SynchExample1" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.monitor_synchronized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MulThExample9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.MulThExample9" />
+    <configuration name="SynchExample3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.monitor_synchronized.SynchExample3" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.*" />
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.monitor_synchronized.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -113,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SynchExample3" />
+        <item itemvalue="Application.SynchExample1" />
         <item itemvalue="Application.MulThExample11" />
         <item itemvalue="Application.MulThExample12" />
         <item itemvalue="Application.MulThExample10" />
-        <item itemvalue="Application.MulThExample9" />
-        <item itemvalue="Application.MulThExample8" />
       </list>
     </recent_temporary>
   </component>
@@ -132,42 +133,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="23893000" />
-    </task>
-    <task id="LOCAL-00027" summary="LinkedListEx&#10;LinkedListExample">
-      <created>1656948888271</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1656948888271</updated>
-    </task>
-    <task id="LOCAL-00028" summary="LinkedListEx&#10;PriorityQueueExample">
-      <created>1656949363369</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1656949363369</updated>
-    </task>
-    <task id="LOCAL-00029" summary="DequeueExample">
-      <created>1656950223616</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1656950223616</updated>
-    </task>
-    <task id="LOCAL-00030" summary="nested classes">
-      <created>1656950549356</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1656950549356</updated>
-    </task>
-    <task id="LOCAL-00031" summary="static nested classes">
-      <created>1656951176569</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1656951176569</updated>
+      <workItem from="1657037484102" duration="27518000" />
     </task>
     <task id="LOCAL-00032" summary="inner class">
       <created>1656951951538</created>
@@ -477,7 +443,42 @@
       <option name="project" value="LOCAL" />
       <updated>1657391911326</updated>
     </task>
-    <option name="localTasksCounter" value="76" />
+    <task id="LOCAL-00076" summary="multiThreading synchronized">
+      <created>1657392364693</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1657392364693</updated>
+    </task>
+    <task id="LOCAL-00077" summary="multiThreading synchronized example 1">
+      <created>1657448806829</created>
+      <option name="number" value="00077" />
+      <option name="presentableId" value="LOCAL-00077" />
+      <option name="project" value="LOCAL" />
+      <updated>1657448806829</updated>
+    </task>
+    <task id="LOCAL-00078" summary="multiThreading synchronized block example 1">
+      <created>1657448896475</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1657448896475</updated>
+    </task>
+    <task id="LOCAL-00079" summary="multiThreading synchronized block example 2">
+      <created>1657449029754</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1657449029754</updated>
+    </task>
+    <task id="LOCAL-00080" summary="multiThreading synchronized block example 3">
+      <created>1657449342076</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1657449342076</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,10 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stream sorted" />
-    <MESSAGE value="stream chaining" />
-    <MESSAGE value="stream concat" />
-    <MESSAGE value="stream distinct" />
     <MESSAGE value="stream count()" />
     <MESSAGE value="stream peek()" />
     <MESSAGE value="stream flatMap()" />
@@ -518,8 +515,12 @@
     <MESSAGE value="multiThreading join() with parameters" />
     <MESSAGE value="multiThreading join() &#10;NEW&#10;RUNNABLE&#10;TERMINATED" />
     <MESSAGE value="multiThreading volatile" />
-    <MESSAGE value="multiThreading synchronized" />
     <MESSAGE value="multiThreading synchronized and data race" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiThreading synchronized and data race" />
+    <MESSAGE value="multiThreading synchronized" />
+    <MESSAGE value="multiThreading synchronized example 1" />
+    <MESSAGE value="multiThreading synchronized block example 1" />
+    <MESSAGE value="multiThreading synchronized block example 2" />
+    <MESSAGE value="multiThreading synchronized block example 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiThreading synchronized block example 3" />
   </component>
 </project>
