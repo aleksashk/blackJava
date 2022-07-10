@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading synchronized block example 3">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/monitor_synchronized/SynchExample3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading synchronized block example 4.1">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/monitor_synchronized/SynchExample3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/monitor_synchronized/SynchExample3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,21 +132,7 @@
       <workItem from="1656590334680" duration="6245000" />
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
-      <workItem from="1657037484102" duration="27518000" />
-    </task>
-    <task id="LOCAL-00032" summary="inner class">
-      <created>1656951951538</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1656951951539</updated>
-    </task>
-    <task id="LOCAL-00033" summary="local inner class">
-      <created>1656952298376</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1656952298376</updated>
+      <workItem from="1657037484102" duration="27819000" />
     </task>
     <task id="LOCAL-00034" summary="local inner class version 2">
       <created>1656952572412</created>
@@ -478,7 +463,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657449342076</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="multiThreading synchronized block example 4">
+      <created>1657450873315</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1657450873315</updated>
+    </task>
+    <task id="LOCAL-00082" summary="multiThreading synchronized block example 4.1">
+      <created>1657450907874</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1657450907874</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,8 +495,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stream count()" />
-    <MESSAGE value="stream peek()" />
     <MESSAGE value="stream flatMap()" />
     <MESSAGE value="stream groupingBy()" />
     <MESSAGE value="stream partitioningBy()" />
@@ -521,6 +518,8 @@
     <MESSAGE value="multiThreading synchronized block example 1" />
     <MESSAGE value="multiThreading synchronized block example 2" />
     <MESSAGE value="multiThreading synchronized block example 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiThreading synchronized block example 3" />
+    <MESSAGE value="multiThreading synchronized block example 4" />
+    <MESSAGE value="multiThreading synchronized block example 4.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiThreading synchronized block example 4.1" />
   </component>
 </project>

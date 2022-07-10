@@ -1,34 +1,42 @@
 package com.gmail.aleksandrphilimonov.multithreading.monitor_synchronized;
 
 public class SynchExample3 {
-    synchronized void mobileCall() {
-        System.out.println("mobile calls starts");
-        try {
-            Thread.sleep(3000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+    static final Object lock = new Object();
+
+    void mobileCall() {
+        synchronized (lock) {
+            System.out.println("mobile calls starts");
+            try {
+                Thread.sleep(3000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            System.out.println("mobile call ends");
         }
-        System.out.println("mobile call ends");
     }
 
-    synchronized void viberCall() {
-        System.out.println("viber calls starts");
-        try {
-            Thread.sleep(6000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+    void viberCall() {
+        synchronized (lock) {
+            System.out.println("viber calls starts");
+            try {
+                Thread.sleep(6000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            System.out.println("viber call ends");
         }
-        System.out.println("viber call ends");
     }
 
-    synchronized void watsAppCall() {
-        System.out.println("watsApp calls starts");
-        try {
-            Thread.sleep(9000);
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
+    void watsAppCall() {
+        synchronized (lock) {
+            System.out.println("watsApp calls starts");
+            try {
+                Thread.sleep(9000);
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+            System.out.println("watsApp call ends");
         }
-        System.out.println("watsApp call ends");
     }
 
     public static void main(String[] args) throws InterruptedException {
