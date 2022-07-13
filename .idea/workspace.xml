@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading included to the packet simple_examples">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/factorial_examples/RunnableFactorialExample.java" afterDir="false" />
+    <list default="true" id="b24b9d30-ca45-49ed-87bd-b03cd334d59d" name="Changes" comment="multiThreading Runnable Factorial example">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gmail/aleksandrphilimonov/multithreading/factorial_examples/CallableFactorialExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +46,7 @@
       <recent name="com.gmail.aleksandrphilimonov.nested_classes.static_nested_class" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RunnableFactorialExample">
+  <component name="RunManager" selected="Application.CallableFactorialExample">
     <configuration name="CachedThreadPoolExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.thread_pool.CachedThreadPoolExample" />
       <module name="blackJava" />
@@ -60,25 +60,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RunnableFactorialExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.factorial_examples.RunnableFactorialExample" />
+    <configuration name="CallableFactorialExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.factorial_examples.CallableFactorialExample" />
       <module name="blackJava" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.factorial_examples.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScheduledExecutorServiceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.thread_pool.ScheduledExecutorServiceExample" />
-      <module name="blackJava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.thread_pool.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,6 +79,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.thread_pool.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.gmail.aleksandrphilimonov.multithreading.factorial_examples.RunnableFactorialExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gmail.aleksandrphilimonov.multithreading.factorial_examples.RunnableFactorialExample" />
+      <module name="blackJava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gmail.aleksandrphilimonov.multithreading.factorial_examples.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,7 +114,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RunnableFactorialExample" />
+        <item itemvalue="Application.CallableFactorialExample" />
+        <item itemvalue="Application.com.gmail.aleksandrphilimonov.multithreading.factorial_examples.RunnableFactorialExample" />
         <item itemvalue="Application.CachedThreadPoolExample" />
         <item itemvalue="Application.com.gmail.aleksandrphilimonov.multithreading.thread_pool.SingleThreadPoolExample" />
       </list>
@@ -132,14 +133,7 @@
       <workItem from="1656668992451" duration="18743000" />
       <workItem from="1656934162567" duration="4020000" />
       <workItem from="1657037484102" duration="39639000" />
-      <workItem from="1657615264375" duration="2000000" />
-    </task>
-    <task id="LOCAL-00052" summary="stream chaining">
-      <created>1657137473194</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1657137473194</updated>
+      <workItem from="1657615264375" duration="2603000" />
     </task>
     <task id="LOCAL-00053" summary="stream concat">
       <created>1657137882784</created>
@@ -477,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657712525166</updated>
     </task>
-    <option name="localTasksCounter" value="101" />
+    <task id="LOCAL-00101" summary="multiThreading Runnable Factorial example">
+      <created>1657713309079</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1657713309079</updated>
+    </task>
+    <option name="localTasksCounter" value="102" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +496,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="multiThreading synchronized" />
     <MESSAGE value="multiThreading synchronized example 1" />
     <MESSAGE value="multiThreading synchronized block example 1" />
     <MESSAGE value="multiThreading synchronized block example 2" />
@@ -520,7 +520,8 @@
     <MESSAGE value="multiThreading newCachedThreadPool" />
     <MESSAGE value="multiThreading" />
     <MESSAGE value="multiThreading included to the packet simple_examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="multiThreading included to the packet simple_examples" />
+    <MESSAGE value="multiThreading Runnable Factorial example" />
+    <option name="LAST_COMMIT_MESSAGE" value="multiThreading Runnable Factorial example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
