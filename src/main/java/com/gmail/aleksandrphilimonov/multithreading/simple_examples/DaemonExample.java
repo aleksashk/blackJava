@@ -1,4 +1,4 @@
-package com.gmail.aleksandrphilimonov.multithreading;
+package com.gmail.aleksandrphilimonov.multithreading.simple_examples;
 
 public class DaemonExample {
     public static void main(String[] args) {

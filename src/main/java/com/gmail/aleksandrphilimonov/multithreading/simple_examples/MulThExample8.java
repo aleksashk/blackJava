@@ -1,4 +1,4 @@
-package com.gmail.aleksandrphilimonov.multithreading;
+package com.gmail.aleksandrphilimonov.multithreading.simple_examples;
 
 public class MulThExample8 extends Thread {
     public void run() {

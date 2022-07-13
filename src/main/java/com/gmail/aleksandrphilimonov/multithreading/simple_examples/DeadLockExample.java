@@ -1,4 +1,4 @@
-package com.gmail.aleksandrphilimonov.multithreading;
+package com.gmail.aleksandrphilimonov.multithreading.simple_examples;
 
 public class DeadLockExample {
     public static final Object lock1 = new Object();

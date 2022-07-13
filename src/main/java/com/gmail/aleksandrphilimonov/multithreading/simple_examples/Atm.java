@@ -1,4 +1,4 @@
-package com.gmail.aleksandrphilimonov.multithreading;
+package com.gmail.aleksandrphilimonov.multithreading.simple_examples;
 
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
