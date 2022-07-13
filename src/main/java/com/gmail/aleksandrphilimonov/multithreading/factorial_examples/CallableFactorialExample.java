@@ -11,7 +11,7 @@ public class CallableFactorialExample {
 
     public static void main(String[] args) {
         ExecutorService service = Executors.newSingleThreadExecutor();
-        Factorial2 factorial = new Factorial2(6);
+        Factorial2 factorial = new Factorial2(-6);
         Future<Integer> future = service.submit(factorial);
         try {
             factorialResult = future.get();
